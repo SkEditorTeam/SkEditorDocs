@@ -23,6 +23,12 @@ export default defineConfig({
                 ]
             },
             {
+                text: 'Usage',
+                items: [
+                    {text: 'FTP Integration', link: '/ftp-integration'},
+                ]
+            },
+            {
                 text: 'Advanced',
                 items: [
                     {text: 'Compiling', link: '/compiling'},
