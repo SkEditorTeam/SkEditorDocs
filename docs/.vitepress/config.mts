@@ -7,6 +7,7 @@ export default defineConfig({
     description: "An app for editing Skript files.",
     appearance: 'force-dark',
     head: [['link', { rel: 'icon', href: '/assets/SkEditor.svg' }]],
+    cleanUrls: true,
     themeConfig: {
         logo: '/assets/SkEditor.svg',
         nav: [
@@ -47,6 +48,10 @@ export default defineConfig({
             {icon: 'kofi', link: 'https://ko-fi.com/notro'},
             {icon: 'discord', link: 'https://skeditordc.notro.me'},
             {icon: 'github', link: 'https://github.com/SkEditorTeam/SkEditor'}
-        ]
+        ],
+        
+        search: {
+            provider: 'local'
+        }
     }
 })
