@@ -26,6 +26,7 @@ export default defineConfig({
                 text: 'Advanced',
                 items: [
                     {text: 'Compiling', link: '/compiling'},
+                    {text: 'Contributing', link: '/contributing'},
                 ]
             }
         ],
