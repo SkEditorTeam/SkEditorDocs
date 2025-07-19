@@ -21,6 +21,12 @@ export default defineConfig({
                     {text: 'Introduction', link: '/intro'},
                     {text: 'Installation', link: '/installation'},
                 ]
+            },
+            {
+                text: 'Advanced',
+                items: [
+                    {text: 'Compiling', link: '/compiling'},
+                ]
             }
         ],
 
