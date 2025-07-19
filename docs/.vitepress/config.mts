@@ -18,21 +18,27 @@ export default defineConfig({
             {
                 text: 'First steps',
                 items: [
-                    {text: 'Introduction', link: '/intro'},
-                    {text: 'Installation', link: '/installation'},
+                    {text: 'Introduction', link: '/first-steps/intro'},
+                    {text: 'Installation', link: '/first-steps/installation'},
                 ]
             },
             {
                 text: 'Usage',
                 items: [
-                    {text: 'FTP Integration', link: '/ftp-integration'},
+                    {text: 'FTP Integration', link: '/usage/ftp-integration'},
+                ]
+            },
+            {
+                text: 'Addons',
+                items: [
+                    {text: 'Creating an Addon', link: '/addons/creating-an-addon'},
                 ]
             },
             {
                 text: 'Advanced',
                 items: [
-                    {text: 'Compiling', link: '/compiling'},
-                    {text: 'Contributing', link: '/contributing'},
+                    {text: 'Compiling', link: '/advanced/compiling'},
+                    {text: 'Contributing', link: '/advanced/contributing'},
                 ]
             }
         ],
