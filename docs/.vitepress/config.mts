@@ -5,6 +5,8 @@ export default defineConfig({
     lang: 'en-us',
     title: "SkEditor",
     description: "An app for editing Skript files.",
+    appearance: 'force-dark',
+    head: [['link', { rel: 'icon', href: '/assets/SkEditor.svg' }]],
     themeConfig: {
         logo: '/assets/SkEditor.svg',
         nav: [
