@@ -6,7 +6,7 @@ export default defineConfig({
     title: "SkEditor",
     description: "An app for editing Skript files.",
     appearance: 'force-dark',
-    head: [['link', { rel: 'icon', href: '/assets/SkEditor.svg' }]],
+    head: [['link', {rel: 'icon', href: '/assets/SkEditor.svg'}]],
     cleanUrls: true,
     themeConfig: {
         logo: '/assets/SkEditor.svg',
@@ -26,7 +26,18 @@ export default defineConfig({
             {
                 text: 'Usage',
                 items: [
-                    {text: 'FTP Integration', link: '/usage/ftp-integration'},
+                    {
+                        text: 'FTP Integration',
+                        link: '/usage/ftp-integration'
+                    },
+                    {
+                        text: 'Experiments',
+                        collapsed: true,
+                        link: '/usage/experiments',
+                        items: [
+                            {text: 'Code Completion', link: '/usage/experiments/code-completion'},
+                        ]
+                    },
                 ]
             },
             {
@@ -49,7 +60,7 @@ export default defineConfig({
             {icon: 'discord', link: 'https://skeditordc.notro.me'},
             {icon: 'github', link: 'https://github.com/SkEditorTeam/SkEditor'}
         ],
-        
+
         search: {
             provider: 'local'
         }
