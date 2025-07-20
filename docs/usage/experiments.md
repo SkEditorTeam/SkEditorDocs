@@ -7,4 +7,4 @@ Experiments are called that for a reason. They may be unstable, incomplete, and 
 Experiments are features that allow you to test new functionality.
 They can be enabled easily in the settings in their dedicated Experiments section.
 
-![Settings window](./images/experiments.webp)
+<img src="./images/experiments.webp" alt="Settings window" style="border-radius: 5px;" />

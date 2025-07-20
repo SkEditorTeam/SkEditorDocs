@@ -36,6 +36,8 @@ export default defineConfig({
                         link: '/usage/experiments',
                         items: [
                             {text: 'Code Completion', link: '/usage/experiments/code-completion'},
+                            {text: 'Projects', link: '/usage/experiments/projects'},
+                            {text: 'Hex Preview', link: '/usage/experiments/hex-preview'},
                         ]
                     },
                 ]
