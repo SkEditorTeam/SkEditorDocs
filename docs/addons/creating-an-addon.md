@@ -1,12 +1,14 @@
 ﻿# Creating an Addon
 Do you want to extend the functionality of SkEditor? Creating an addon is a great way to do that! This guide will walk you through the process of creating your own addon for SkEditor.
 
+::: warning
+This guide assumes you have a basic understanding of C# and .NET development.
+If you're new to C#, consider checking out some introductory resources first.
+:::
+
 ## Prerequisites
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - A code editor or IDE that supports C# development (e.g., Visual Studio, Rider, or Visual Studio Code)
-
-This guide assumes you have a basic understanding of C# and .NET development.
-If you're new to C#, consider checking out some introductory resources first.
 
 Creating a project in a text editor is possible, but using an IDE will make the process much easier and more efficient.
 

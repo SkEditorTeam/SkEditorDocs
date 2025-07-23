@@ -12,7 +12,7 @@ export default defineConfig({
         logo: '/assets/SkEditor.svg',
         nav: [
             {text: 'Home', link: '/'},
-            {text: 'Documentation', link: '/intro'}
+            {text: 'Documentation', link: '/first-steps/intro'}
         ],
 
         sidebar: [
@@ -45,6 +45,7 @@ export default defineConfig({
             {
                 text: 'Addons',
                 items: [
+                    {text: 'Analyzer', link: '/addons/analyzer'},
                     {text: 'Creating an Addon', link: '/addons/creating-an-addon'},
                 ]
             },
