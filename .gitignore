@@ -24,3 +24,5 @@ pnpm-debug.log*
 # VitePress
 docs/.vitepress/cache/
 docs/.vitepress/dist/
+
+*.zip
