@@ -1,5 +1,6 @@
 # Introduction
 Welcome to the documentation for SkEditor, a helpful editor specially made for Skript development.
+TEST
 
 ## Features
 - **Skript error checking**: Automatically detects and highlights errors and warnings in your Skript code when you have the Analyzer addon installed.
