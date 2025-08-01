@@ -1,9 +1,4 @@
-import {
-  defineConfig,
-  resolveSiteData,
-  type HeadConfig,
-  type DefaultTheme
-} from 'vitepress'
+import { defineConfig, type DefaultTheme } from 'vitepress'
 import {
   groupIconMdPlugin,
   groupIconVitePlugin,
@@ -31,28 +26,6 @@ export default defineConfig({
 
   lastUpdated: true,
 
-  markdown: {
-    config(md) {
-      // TODO: remove when https://github.com/vuejs/vitepress/issues/4431 is fixed
-      const fence = md.renderer.rules.fence!
-      md.renderer.rules.fence = function (tokens, idx, options, env, self) {
-        const { localeIndex = 'root' } = env
-        const codeCopyButtonTitle = (() => {
-          switch (localeIndex) {
-            case 'de-DE':
-              return 'Code kopieren'
-            default:
-              return 'Copy code'
-          }
-        })()
-        return fence(tokens, idx, options, env, self).replace(
-          '<button title="Copy Code" class="copy"></button>',
-          `<button title="${codeCopyButtonTitle}" class="copy"></button>`
-        )
-      }
-      md.use(groupIconMdPlugin)
-    }
-  },
   locales: {
     root: {
       label: 'English'
@@ -95,18 +68,37 @@ export default defineConfig({
       }
     }
   },
+  markdown: {
+    async config(md) {
+      // TODO: remove when https://github.com/vuejs/vitepress/issues/4431 is fixed
+      const fence = md.renderer.rules.fence!
+      md.renderer.rules.fence = function (tokens, idx, options, env, self) {
+        const { localeIndex = 'root' } = env
+        const codeCopyButtonTitle = (() => {
+          switch (localeIndex) {
+            case 'de-DE':
+              return 'Code kopieren'
+            default:
+              return 'Copy code'
+          }
+        })()
+        return fence(tokens, idx, options, env, self).replace(
+          '<button title="Copy Code" class="copy"></button>',
+          `<button title="${codeCopyButtonTitle}" class="copy"></button>`
+        )
+      }
+      md.use(groupIconMdPlugin)
+    }
+  },
   vite: {
     plugins: [
       groupIconVitePlugin({
         customIcon: {
           skript: localIconLoader(
             import.meta.url,
-            '../public/assets/Skript.png'
+            '../public/assets/Skript.svg'
           ),
-          skeditor: localIconLoader(
-            import.meta.url,
-            '../public/assets/SkEditor.svg'
-          )
+          sk: localIconLoader(import.meta.url, '../public/assets/Skript.svg')
         }
       })
     ]
