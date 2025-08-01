@@ -1,4 +1,13 @@
-﻿# FTP Integration
+﻿---
+prev:
+   text: 'First Steps - Installation'
+   link: '/en-US/first-steps/installation'
+next: 
+   text: 'Usage - Experiments'
+   link: '/en-US/usage/experiments'
+---
+
+# FTP Integration
 
 There's no built-in FTP/SFTP explorer in the current version of the app.
 However, you can use SkEditor with an FTP client to edit files on your server almost seamlessly.

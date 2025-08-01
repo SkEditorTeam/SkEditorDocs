@@ -1,10 +1,10 @@
 ﻿---
 prev:
-   text: 'Experimente - Hex Vorschau'
-   link: '/de-DE/usage/experiments/hex-preview'
+   text: 'Experiments - Hex Preview'
+   link: '/en-US/usage/experiments/hex-preview'
 next: 
-   text: 'Erweiterungen - Eine Erweiterung erstellen'
-   link: '/de-DE/addons/creating-an-addon'
+   text: 'Extensions - Creating an Addon'
+   link: '/en-US/addons/creating-an-addon'
 ---
 
 # Analyzer
@@ -70,4 +70,4 @@ The Analyzer can work with almost any Skript addon, but you need to add them fir
 2. You'll see a list of currently loaded addons
 3. To add an addon, click the `Add` button and select the addon's JAR file
 4. To remove an addon, select it from the list and remove it
-5. When you leave this page, the Analyzer will reload automatically.
+5. When you leave this page, the Analyzer will reload automatically

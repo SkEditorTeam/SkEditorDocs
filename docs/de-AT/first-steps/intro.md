@@ -1,9 +1,3 @@
----
-next: 
-  text: 'Erste Schritte - Installation'
-  link: '/de-DE/first-steps/installation'
----
-
 # Einführung
 
 Willkommen in der Dokumentation von SkEditor, einem hilfreichen Editor, der speziell für die Entwicklung von [Skripten](https://github.com/SkriptLang/Skript) entwickelt wurde.

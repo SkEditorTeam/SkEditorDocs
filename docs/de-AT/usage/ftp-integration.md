@@ -1,13 +1,4 @@
-﻿---
-prev:
-   text: 'Erste Schritte - Installation'
-   link: '/de-DE/first-steps/installation'
-next: 
-   text: 'Benutzung - Experimente'
-   link: '/de-DE/usage/experiments'
----
-
-# FTP Integration
+﻿# FTP Integration
 
 Es gibt keinen eingebauten FTP/SFTP-Explorer in der aktuellen Version der App.
 SkEditor kann jedoch mit einem FTP-Client verwenden, um Dateien auf einem Server nahezu nahtlos zu bearbeiten.

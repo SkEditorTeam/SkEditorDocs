@@ -1,13 +1,4 @@
-﻿---
-prev:
-   text: 'Benutzung - Experimente'
-   link: '/de-DE/usage/experiments'
-next: 
-   text: 'Experimente - Projekte'
-   link: '/de-DE/usage/experiments/projects'
----
-
-# Code Vervollständigung
+﻿# Code Vervollständigung
 
 ::: danger
 Diese Funktion ist experimentell und funktioniert möglicherweise nicht wie erwartet. Verwenden auf eigenes Risiko.

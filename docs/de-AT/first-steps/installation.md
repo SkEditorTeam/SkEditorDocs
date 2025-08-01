@@ -1,12 +1,3 @@
----
-prev:
-   text: 'Erste Schritte - Einführung'
-   link: '/de-DE/first-steps/intro'
-next: 
-   text: 'Benutzung - FTP-Integration'
-   link: '/de-DE/usage/ftp-integration'
----
-
 # Installation
 
 SkEditor ist einfach auf verschiedenen Plattformen zu installieren. Folge den Anweisungen für Dein Betriebssystem.

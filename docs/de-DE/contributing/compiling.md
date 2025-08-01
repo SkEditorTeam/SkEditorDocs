@@ -1,13 +1,24 @@
+---
+prev:
+   text: 'Mitwirken - Übersicht'
+   link: '/de-DE/contributing/overview'
+next: 
+   text: 'Mitwirken - Code Regeln'
+   link: '/de-DE/contributing/code-rules'
+---
+
 # Compiling
 
 You might want to compile SkEditor yourself, for example, to test new features from a `dev` branch.
 This is quite easy to do in .NET, and you can get it done in a few steps.
 
 ## Prerequisites
+
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - [Git](https://git-scm.com/downloads)
 
 ## Cloning the repository
+
 You can clone the repository using the following command:
 
 ```bash
@@ -17,6 +28,7 @@ git clone -b dev/dev https://github.com/SkEditorTeam/SkEditor.git
 This will clone the `dev/dev` branch of the repository. If you want to clone a different branch, you can replace `dev/dev` with the desired branch name or leave out the `-b` option completely to clone the `main` branch.
 
 ## Navigating to the project directory
+
 The repository contains two projects: `SkEditor` and `Installer`, so you need to navigate to the `SkEditor` project directory to compile it. You can do this with the following command (assuming you are in the root directory of the cloned repository):
 
 ```bash
@@ -24,6 +36,7 @@ cd SkEditor
 ```
 
 ## Compiling the project
+
 Now you can run the app using a single command:
 
 ```bash
@@ -31,6 +44,7 @@ dotnet run
 ```
 
 And publish it with:
+
 ```bash
 dotnet publish
 ```
@@ -46,6 +60,7 @@ dotnet publish -c Release -r win-x64 --no-self-contained -p:PublishSingleFile=tr
 ```
 
 This command will:
+
 - Make sure the build is in `Release` configuration
 - Target the `win-x64` runtime (you can change this to `linux-x64`, `osx-x64`, etc. if needed)
 - NOT include the .NET runtime in the output (so the user will need to have .NET 8.0 installed)

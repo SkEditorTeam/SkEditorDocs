@@ -1,3 +1,12 @@
+---
+prev:
+   text: 'First Steps - Introduction'
+   link: '/en-US/first-steps/intro'
+next: 
+   text: 'Usage - FTP Integration'
+   link: '/en-US/usage/ftp-integration'
+---
+
 # Installation
 
 SkEditor is straightforward to install across different platforms. Follow the instructions below for your operating system.

@@ -1,13 +1,4 @@
-﻿---
-prev:
-   text: 'Experimente - Projekte'
-   link: '/de-DE/usage/experiments/projects'
-next: 
-   text: 'Erweiterungen - Analyzer'
-   link: '/de-DE/addons/analyzer'
----
-
-# Hex Vorschau
+﻿# Hex Vorschau
 
 ::: danger
 Diese Funktion ist experimentell und funktioniert möglicherweise nicht wie erwartet. Verwenden auf eigenes Risiko.
