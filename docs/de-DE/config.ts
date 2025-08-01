@@ -104,12 +104,11 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       ]
     },
     {
-      text: 'Mitwirken',
+      text: 'Fortgeschritten',
       collapsed: true,
       items: [
-        { text: 'Übersicht', link: '/contributing/overview' },
-        { text: 'Kompilieren', link: '/contributing/compiling' },
-        { text: 'Code Regeln', link: '/contributing/code-rules' }
+        { text: 'Kompilieren', link: '/advanced/compiling' },
+        { text: 'Mitwirken', link: '/advanced/contributing' }
       ]
     }
   ]

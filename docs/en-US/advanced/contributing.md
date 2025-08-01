@@ -1,13 +1,19 @@
 ---
 prev:
-   text: 'Contributing - Compiling'
-   link: '/en-US/contributing/compiling'
-next: false
+   text: 'Extensions - Creating an Addon'
+   link: '/en-US/addons/creating-an-addon'
+next: 
+   text: 'Advanced - Compiling'
+   link: '/en-US/advanced/compiling'
 ---
 
-# Code rules
+# Contributing
 
-## General rules
+Do you want to contribute to this project? Awesome! Here are some guidelines to help you get started.
+
+## Code rules
+
+### General rules
 
 - Some rules should be enforced automatically by the `.editorconfig` file
 - Follow the Microsoft C# coding conventions - especially regarding naming conventions!
@@ -18,7 +24,7 @@ next: false
 - Don't overuse comments - the code should be self-explanatory
 - Opening curly braces should always be on a NEW line
 
-## Naming conventions
+### Naming conventions
 
 - Classes, interfaces, enums, methods and properties should be named using `PascalCase`
 - Interfaces should be prefixed with `I` (e.g. `IExampleInterface`)
@@ -31,3 +37,16 @@ But... you know what? The most important rule is: **just don't make complete gar
 
 IDEs can apply most of these things automatically. So, don't worry too much about it!
 :::
+
+## Pull requests
+
+You should base your work on the `dev/dev` branch instead of the `main` branch. The `main` branch is reserved for stable releases, while the `dev` branch is where all the development happens.
+
+## Bug fixes
+
+Bug fixes are always welcome and appreciated, so please don't hesitate to submit a pull request if you find a bug in the code!
+
+## Features
+
+Features are a bit trickier. If you want to implement a new feature, it would be best to ask first on Discord - either privately (by messaging Notro) or in the Discord server.
+This way, we can discuss the feature first. I wouldn't want your work to go to waste!

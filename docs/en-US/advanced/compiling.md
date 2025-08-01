@@ -1,10 +1,8 @@
 ---
 prev:
-   text: 'Mitwirken - Übersicht'
-   link: '/de-DE/contributing/overview'
-next: 
-   text: 'Mitwirken - Code Regeln'
-   link: '/de-DE/contributing/code-rules'
+   text: 'Advanced - Contributing'
+   link: '/en-US/advanced/contributing'
+next: false
 ---
 
 # Compiling

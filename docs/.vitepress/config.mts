@@ -10,7 +10,6 @@ import {
   localIconLoader
 } from 'vitepress-plugin-group-icons'
 import { configDeDE, searchOptionsDeDE } from '../de-DE/config'
-import { configDeAT, searchOptionsDeAT } from '../de-AT/config'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -38,8 +37,7 @@ export default defineConfig({
     root: {
       label: 'English'
     },
-    'de-DE': configDeDE,
-    'de-AT': configDeAT
+    'de-DE': configDeDE
   },
   markdown: {
     config(md) {
@@ -94,8 +92,7 @@ export default defineConfig({
       provider: 'local',
       options: {
         locales: {
-          'de-DE': searchOptionsDeDE(),
-          'de-AT': searchOptionsDeAT()
+          'de-DE': searchOptionsDeDE()
         }
       }
     }
@@ -169,12 +166,11 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       ]
     },
     {
-      text: 'Contributing',
+      text: 'Advanced',
       collapsed: true,
       items: [
-        { text: 'Overview', link: '/contributing/overview' },
-        { text: 'Compiling', link: '/contributing/compiling' },
-        { text: 'Code rules', link: '/contributing/code-rules' }
+        { text: 'Compiling', link: '/advanced/compiling' },
+        { text: 'Contributing', link: '/advanced/contributing' }
       ]
     }
   ]
