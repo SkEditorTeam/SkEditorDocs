@@ -7,22 +7,22 @@ next:
    link: '/de-DE/usage/experiments/hex-preview'
 ---
 
-# Projects
+# Projekte
 
-::: danger
-This feature is experimental and may not work as expected. Use it at your own risk.
+::: danger WARNUNG
+Diese Funktion ist experimentell und funktioniert möglicherweise nicht wie erwartet. Verwende sie auf eigenes Risiko.
 :::
 
 ::: info
-While this is an experimental feature, Projects is more stable than other experiments and is actively used in production. It will be further developed and improved in the future.
+Obwohl dies eine experimentelle Funktion ist, ist Projekte stabiler als andere Experimente und wird aktiv in der Produktion verwendet. Es wird in Zukunft weiterentwickelt und verbessert.
 :::
 
-::: tip Important Note
-The experiment toggle doesn't actually do anything - the feature is always enabled due to changes made a while back.
+::: tip Wichtiger Hinweis
+Der Experimentumschalter hat tatsächlich keine Auswirkungen - die Funktion ist aufgrund von Änderungen, die vor einiger Zeit vorgenommen wurden, immer aktiviert.
 
-You **don't** need to enable the experiment to use Projects. You can use it right away from the sidebar.
+Das Experiment **muss nicht** aktiviert werden, um Projekte zu verwenden. Du kannst es sofort über die Seitenleiste verwenden.
 :::
 
-**Projects** is a feature that lets you open folders inside SkEditor. Technically, it doesn't implement "projects" in the traditional sense, but rather allows you to open a folder and work with files inside it.
+**Projekte** ist eine Funktion, die es ermöglicht, Ordner innerhalb von SkEditor zu öffnen. Technisch gesehen implementiert es nicht "Projekte" im traditionellen Sinne, sondern ermöglicht es dir, einen Ordner zu öffnen und mit den darin enthaltenen Dateien zu arbeiten.
 
-Many features aren't implemented yet, like detecting file changes in the folder. In the future, a full-fledged project management system will be implemented.
+Viele Funktionen sind noch nicht implementiert, wie z.B. die Erkennung von Dateiänderungen im Ordner. In Zukunft wird ein vollwertiges Projektmanagementsystem implementiert.
