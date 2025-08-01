@@ -9,65 +9,65 @@ next:
 
 # Analyzer
 
-The Analyzer is an official addon for SkEditor that provides real-time code analysis directly in the editor. It gives you errors and warnings about your Skript code using a parser that's designed to be identical to the one used in the Skript plugin itself.
+Der Analyzer ist ein offizielles Addon für SkEditor, das Echtzeit-Code-Analyse direkt im Editor bereitstellt. Es zeigt Fehler und Warnungen über den Skript-Code an und verwendet einen Parser, der identisch mit dem im Skript-Plugin verwendeten Parser ist.
 
-## Prerequisites
+## Voraussetzungen
 
-The Analyzer requires **Java 21** to run. Make sure you have it installed on your system. If you don't have Java 21, you can download it from the [Adoptium website](https://adoptium.net/). The JRE should be enough, but if you have the JDK installed, that works too.
-When installing Java, you can choose to add it to your system PATH, which is recommended. If you don't do this, you'll need to specify the path to the Java executable in the Analyzer settings, as described below.
+Der Analyzer benötigt **Java 21** zum Ausführen. Stelle sicher, dass es auf dem System installiert ist. Falls Java 21 nicht vorhanden ist, kann es von der [Adoptium-Website](https://adoptium.net/) heruntergeladen werden. Die JRE reicht aus, aber auch das JDK funktioniert.
+Bei der Installation von Java kann es zum System PATH hinzugefügt werden, was empfohlen wird. Andernfalls muss der Pfad zur Java-Executable in den Analyzer-Einstellungen angegeben werden, wie unten beschrieben.
 
 ## Installation
 
-Installing the Analyzer addon is straightforward:
+Die Installation des Analyzer-Addons ist unkompliziert:
 
-1. Open the Marketplace in SkEditor (Top menu > Other > Marketplace)
-2. Find and click on the "Analyzer" addon
-3. Click the `Install` button
-4. Restart SkEditor when prompted
-5. You may see another restart notification after the first restart - this is normal for first-time installations, so restart SkEditor once more
-6. The addon is now ready to use! If this is your first time using it or if SkAnalyzer is outdated, it will automatically download or update itself
+1. Den Marketplace in SkEditor öffnen (Oberes Menü > Sonstiges > Marketplace)
+2. Das "Analyzer" Addon finden und anklicken
+3. Den `Installieren` Button klicken
+4. SkEditor neu starten, wenn dazu aufgefordert
+5. Möglicherweise erscheint nach dem ersten Neustart eine weitere Neustart-Benachrichtigung - das ist normal bei Erstinstallationen, also SkEditor nochmals neu starten
+6. Das Addon ist jetzt einsatzbereit! Bei der ersten Verwendung oder wenn SkAnalyzer veraltet ist, wird es sich automatisch herunterladen oder aktualisieren
 
-## How to Use
+## Verwendung
 
-Using the Analyzer is simple and intuitive:
+Die Verwendung des Analyzers ist einfach und intuitiv:
 
-The addon adds an `Analyze` button to the bottom bar of SkEditor (you can also press F1 as a shortcut). Click this button to analyze your currently open file.
+Das Addon fügt einen `Analysieren` Button zur unteren Leiste von SkEditor hinzu (alternativ kann F1 als Tastenkürzel verwendet werden). Durch Klicken dieses Buttons wird die aktuell geöffnete Datei analysiert.
 
-After analysis, you'll see two information displays next to the `Analyze` button:
+Nach der Analyse werden zwei Informationsanzeigen neben dem `Analysieren` Button angezeigt:
 
-- **Errors and warnings** about your code
-- **Statistics** showing the count of commands, functions, and events in your script
+- **Fehler und Warnungen** über den Code
+- **Statistiken** mit der Anzahl von Befehlen, Funktionen und Events im Skript
 
-## Configuration
+## Konfiguration
 
-You can customize the Analyzer's behavior through SkEditor's settings:
+Das Verhalten des Analyzers kann über die SkEditor-Einstellungen angepasst werden:
 
-1. Go to Top menu > Settings > Addons
-2. Click on the `Analyzer` addon
+1. Zu Oberes Menü > Einstellungen > Addons navigieren
+2. Auf das `Analyzer` Addon klicken
 
-### Available Settings
+### Verfügbare Einstellungen
 
-#### Load Analyzer on Startup
+#### Analyzer beim Start laden
 
-- When enabled: The Analyzer loads automatically when SkEditor starts
-- When disabled: You'll need to click the `Load` button in the bottom bar to activate it
+- Wenn aktiviert: Der Analyzer wird automatisch geladen, wenn SkEditor startet
+- Wenn deaktiviert: Der `Laden` Button in der unteren Leiste muss geklickt werden, um ihn zu aktivieren
 
-#### Real-time Analyzer
+#### Echtzeit-Analyzer
 
-- When enabled: Your code is analyzed automatically as you type (with a short delay after you stop typing)
-- When disabled: You need to manually click the `Analyze` button each time
+- Wenn aktiviert: Der Code wird automatisch während der Eingabe analysiert (mit kurzer Verzögerung nach dem Stoppen der Eingabe)
+- Wenn deaktiviert: Der `Analysieren` Button muss jedes Mal manuell geklickt werden
 
-#### Analyzer Java Path
+#### Analyzer Java-Pfad
 
-- **Default**: Uses the Java executable from your system PATH
-- **Custom**: Lets you browse and select a specific Java executable file
+- **Standard**: Verwendet die Java-Executable aus dem System PATH
+- **Benutzerdefiniert**: Ermöglicht das Durchsuchen und Auswählen einer spezifischen Java-Executable-Datei
 
-## Skript Addons Support
+## Skript Addons Unterstützung
 
-The Analyzer can work with almost any Skript addon, but you need to add them first:
+Der Analyzer kann mit fast jedem Skript-Addon arbeiten, aber diese müssen zuerst hinzugefügt werden:
 
-1. In the Analyzer settings, click on "Skript Addons"
-2. You'll see a list of currently loaded addons
-3. To add an addon, click the `Add` button and select the addon's JAR file
-4. To remove an addon, select it from the list and remove it
-5. When you leave this page, the Analyzer will reload automatically.
+1. In den Analyzer-Einstellungen auf "Skript Addons" klicken
+2. Eine Liste der aktuell geladenen Addons wird angezeigt
+3. Um ein Addon hinzuzufügen, den `Hinzufügen` Button klicken und die JAR-Datei des Addons auswählen
+4. Um ein Addon zu entfernen, es aus der Liste auswählen und entfernen
+5. Beim Verlassen dieser Seite wird der Analyzer automatisch neu geladen.
