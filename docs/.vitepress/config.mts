@@ -16,29 +16,21 @@ export default defineConfig({
   lang: 'en-us',
   title: 'SkEditor',
   description: 'An app for editing Skript files.',
-  appearance: 'force-dark',
+
   head: [
     ['link', { rel: 'icon', href: '/assets/SkEditor.svg' }],
     ['meta', { name: 'theme-color', content: '#1cc91fff' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'SkEditor - Docs' }],
-    [
-      'meta',
-      {
-        property: 'og:image',
-        content: 'http://localhost:5173/assets/SkEditor.png'
-      }
-    ],
     ['meta', { property: 'og:url', content: 'https://skeditor.notro.me/' }]
   ],
   cleanUrls: true,
-  lastUpdated: true,
-  locales: {
-    root: {
-      label: 'English'
-    },
-    'de-DE': configDeDE
+  rewrites: {
+    'en-US/:rest*': ':rest*'
   },
+
+  lastUpdated: true,
+
   markdown: {
     config(md) {
       // TODO: remove when https://github.com/vuejs/vitepress/issues/4431 is fixed
@@ -61,18 +53,24 @@ export default defineConfig({
       md.use(groupIconMdPlugin)
     }
   },
-  rewrites: {
-    'en-US/:rest*': ':rest*'
+  locales: {
+    root: {
+      label: 'English'
+    },
+    'de-DE': configDeDE
   },
+
+  appearance: 'force-dark',
   themeConfig: {
-    logo: '/assets/SkEditor.svg',
     i18nRouting: true,
+
+    logo: '/assets/SkEditor.svg',
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Documentation', link: '/first-steps/intro' }
     ],
     sidebar: sidebar(),
-
     socialLinks: [
       { icon: 'kofi', link: 'https://ko-fi.com/notro' },
       { icon: 'discord', link: 'https://skeditordc.notro.me' },

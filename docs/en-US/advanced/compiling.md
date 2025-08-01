@@ -1,8 +1,10 @@
 ---
 prev:
+   text: 'Extensions - Creating an Addon'
+   link: '/addons/creating-an-addon'
+next:
    text: 'Advanced - Contributing'
-   link: '/en-US/advanced/contributing'
-next: false
+   link: '/advanced/contributing'
 ---
 
 # Compiling
@@ -12,7 +14,7 @@ This is quite easy to do in .NET, and you can get it done in a few steps.
 
 ## Prerequisites
 
-- [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [Git](https://git-scm.com/downloads)
 
 ## Cloning the repository
@@ -49,7 +51,7 @@ dotnet publish
 
 This will build and publish the project, with the output being placed somewhere in the `bin/Release/net8.0` folder (the command output will tell you the exact path).
 
-But that's only the simplest way to publish the project. There are tons of options you can use to customize the build process, which you can find in the [official documentation](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-publish).
+But that's only the simplest way to publish the project. There are tons of options you can use to customize the build process, which you can find in the [official documentation](https://learn.microsoft.com/dotnet/core/tools/dotnet-publish).
 
 If you want a clean and efficient build, you can use the following command:
 

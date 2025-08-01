@@ -8,9 +8,9 @@ hero:
   actions:
     - theme: brand
       text: Dokumentation
-      link: /first-steps/intro
+      link: /de-DE/first-steps/intro
 #    - theme: alt
-#      text: API-Beispiele
+#      text: API Examples
 #      link: /api-examples
 
 #features:

@@ -1,10 +1,10 @@
 ﻿---
 prev:
    text: 'Experiments - Hex Preview'
-   link: '/en-US/usage/experiments/hex-preview'
+   link: '/usage/experiments/hex-preview'
 next: 
    text: 'Extensions - Creating an Addon'
-   link: '/en-US/addons/creating-an-addon'
+   link: '/addons/creating-an-addon'
 ---
 
 # Analyzer

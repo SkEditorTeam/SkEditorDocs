@@ -1,10 +1,10 @@
 ﻿---
 prev:
    text: 'Experiments - Projects'
-   link: '/en-US/usage/experiments/projects'
+   link: '/usage/experiments/projects'
 next: 
    text: 'Extensions - Analyzer'
-   link: '/en-US/addons/analyzer'
+   link: '/addons/analyzer'
 ---
 
 # Hex Preview

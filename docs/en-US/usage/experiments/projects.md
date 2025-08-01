@@ -1,10 +1,10 @@
 ﻿---
 prev:
    text: 'Experiments - Code Completion'
-   link: '/en-US/usage/experiments/code-completion'
+   link: '/usage/experiments/code-completion'
 next: 
    text: 'Experiments - Hex Preview'
-   link: '/en-US/usage/experiments/hex-preview'
+   link: '/usage/experiments/hex-preview'
 ---
 
 # Projects

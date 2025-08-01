@@ -1,10 +1,8 @@
 ---
 prev:
-   text: 'Extensions - Creating an Addon'
-   link: '/en-US/addons/creating-an-addon'
-next: 
    text: 'Advanced - Compiling'
-   link: '/en-US/advanced/compiling'
+   link: '/advanced/compiling'
+next: false
 ---
 
 # Contributing

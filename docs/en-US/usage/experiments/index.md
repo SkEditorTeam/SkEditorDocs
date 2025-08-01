@@ -1,10 +1,10 @@
 ﻿---
 prev:
    text: 'Usage - FTP Integration'
-   link: '/en-US/usage/ftp-integration'
+   link: '/usage/ftp-integration'
 next: 
    text: 'Experiments - Code Completion'
-   link: '/en-US/usage/experiments/code-completion'
+   link: '/usage/experiments/code-completion'
 ---
 
 # Experiments

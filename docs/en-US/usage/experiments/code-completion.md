@@ -1,10 +1,10 @@
 ﻿---
 prev:
    text: 'Usage - Experiments'
-   link: '/en-US/usage/experiments'
+   link: '/usage/experiments'
 next: 
    text: 'Experiments - Projects'
-   link: '/en-US/usage/experiments/projects'
+   link: '/usage/experiments/projects'
 ---
 
 # Code Completion

@@ -4,7 +4,7 @@ import { LocaleConfig } from '../.vitepress/types'
 const configDeDE: LocaleConfig = {
   label: 'Deutsch',
   lang: 'de-DE',
-  title: 'SkEditor DE',
+  title: 'SkEditor',
   description: 'Eine App zum Bearbeiten von Skriptdateien',
 
   themeConfig: {
@@ -29,10 +29,6 @@ const configDeDE: LocaleConfig = {
 
 function translations() {
   return {
-    lastUpdated: {
-      text: 'Zuletzt geändert am'
-    },
-
     notFound: {
       title: 'SEITE NICHT GEFUNDEN',
       quote: '',
@@ -40,16 +36,20 @@ function translations() {
       linkText: 'Nach hause'
     },
 
+    sidebarMenuLabel: 'Menu',
     outline: {
       label: 'Auf dieser Seite'
     },
 
-    langMenuLabel: 'Sprache ändern',
-    sidebarMenuLabel: 'Menu',
+    lastUpdated: {
+      text: 'Zuletzt geändert am'
+    },
     docFooter: {
       prev: 'Vorherige Seite',
       next: 'Nächste Seite'
-    }
+    },
+
+    langMenuLabel: 'Sprache ändern'
   }
 }
 

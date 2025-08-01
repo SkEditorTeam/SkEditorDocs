@@ -1,7 +1,7 @@
 ---
 next: 
   text: 'First Steps - Installation'
-  link: '/en-US/first-steps/installation'
+  link: '/first-steps/installation'
 ---
 
 # Introduction

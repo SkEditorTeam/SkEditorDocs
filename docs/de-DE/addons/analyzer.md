@@ -20,7 +20,7 @@ Bei der Installation von Java kann es zum System PATH hinzugefügt werden, was e
 
 Die Installation des Analyzer-Addons ist unkompliziert:
 
-1. Den Marketplace in SkEditor öffnen (Oberes Menü > Sonstiges > Marketplace)
+1. Den Marketplace in SkEditor öffnen (Oberes Menü > Andere > Marktplatz)
 2. Das "Analyzer" Addon finden und anklicken
 3. Den `Installieren` Button klicken
 4. SkEditor neu starten, wenn dazu aufgefordert
@@ -42,7 +42,7 @@ Nach der Analyse werden zwei Informationsanzeigen neben dem `Analysieren` Button
 
 Das Verhalten des Analyzers kann über die SkEditor-Einstellungen angepasst werden:
 
-1. Zu Oberes Menü > Einstellungen > Addons navigieren
+1. Zu Oberes Menü > :gear: > Addons navigieren
 2. Auf das `Analyzer` Addon klicken
 
 ### Verfügbare Einstellungen
