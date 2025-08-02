@@ -1,4 +1,13 @@
-﻿# Hex Preview
+﻿---
+prev:
+   text: 'Experiments - Projects'
+   link: '/usage/experiments/projects'
+next: 
+   text: 'Extensions - Analyzer'
+   link: '/addons/analyzer'
+---
+
+# Hex Preview
 
 ::: danger
 This feature is experimental and may not work as expected. Use it at your own risk.

@@ -1,10 +1,19 @@
+---
+prev:
+   text: 'First Steps - Introduction'
+   link: '/first-steps/intro'
+next: 
+   text: 'Usage - FTP Integration'
+   link: '/usage/ftp-integration'
+---
+
 # Installation
 
 SkEditor is straightforward to install across different platforms. Follow the instructions below for your operating system.
 
 ## Prerequisites
 
-Before installing SkEditor, make sure you have the .NET 8.0 Runtime installed on your system. You can download it from the [.NET downloads page](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
+Before installing SkEditor, make sure you have the .NET 8.0 Runtime installed on your system. You can download it from the [.NET downloads page](https://dotnet.microsoft.com/download/dotnet/8.0).
 
 ## Windows
 
@@ -46,9 +55,11 @@ Linux users can run SkEditor using the portable version:
 1. Download the Linux `.zip` file from the [Releases page](https://github.com/SkEditorTeam/SkEditor/releases/latest)
 2. Extract it to your preferred directory
 3. Set executable permissions:
+
    ```bash
    chmod +x SkEditor
    ```
+
 4. Run the application
 
 ::: details Future Linux Support
@@ -56,7 +67,9 @@ I'm currently looking into publishing SkEditor as a Flatpak, which would make it
 :::
 
 ## macOS
+
 Installing SkEditor on macOS is a bit more complicated because of Apple's security policies. Follow these steps:
+
 1. Determine whether you have an Intel or Apple Silicon Mac:
    - For Intel Macs, download the x64 version.
    - For Apple Silicon Macs, download the ARM64 version.
@@ -65,9 +78,11 @@ Installing SkEditor on macOS is a bit more complicated because of Apple's securi
 3. Extract the contents of the `.zip` file. You should now have the SkEditor.app package.
 4. Open a terminal window and navigate to the directory where you extracted SkEditor.
 5. Run the following command to allow SkEditor to run:
+
    ```bash
    xattr -d com.apple.quarantine SkEditor.app
    ```
+
 6. It should now work fine!
 
 ::: details Why the Terminal Command?

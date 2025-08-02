@@ -1,8 +1,18 @@
-﻿# Analyzer
+﻿---
+prev:
+   text: 'Experiments - Hex Preview'
+   link: '/usage/experiments/hex-preview'
+next: 
+   text: 'Extensions - Creating an Addon'
+   link: '/addons/creating-an-addon'
+---
+
+# Analyzer
 
 The Analyzer is an official addon for SkEditor that provides real-time code analysis directly in the editor. It gives you errors and warnings about your Skript code using a parser that's designed to be identical to the one used in the Skript plugin itself.
 
 ## Prerequisites
+
 The Analyzer requires **Java 21** to run. Make sure you have it installed on your system. If you don't have Java 21, you can download it from the [Adoptium website](https://adoptium.net/). The JRE should be enough, but if you have the JDK installed, that works too.
 When installing Java, you can choose to add it to your system PATH, which is recommended. If you don't do this, you'll need to specify the path to the Java executable in the Analyzer settings, as described below.
 
@@ -24,6 +34,7 @@ Using the Analyzer is simple and intuitive:
 The addon adds an `Analyze` button to the bottom bar of SkEditor (you can also press F1 as a shortcut). Click this button to analyze your currently open file.
 
 After analysis, you'll see two information displays next to the `Analyze` button:
+
 - **Errors and warnings** about your code
 - **Statistics** showing the count of commands, functions, and events in your script
 
@@ -36,15 +47,18 @@ You can customize the Analyzer's behavior through SkEditor's settings:
 
 ### Available Settings
 
-**Load Analyzer on Startup**
+#### Load Analyzer on Startup
+
 - When enabled: The Analyzer loads automatically when SkEditor starts
 - When disabled: You'll need to click the `Load` button in the bottom bar to activate it
 
-**Real-time Analyzer**
+#### Real-time Analyzer
+
 - When enabled: Your code is analyzed automatically as you type (with a short delay after you stop typing)
 - When disabled: You need to manually click the `Analyze` button each time
 
-**Analyzer Java Path**
+#### Analyzer Java Path
+
 - **Default**: Uses the Java executable from your system PATH
 - **Custom**: Lets you browse and select a specific Java executable file
 

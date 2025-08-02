@@ -1,7 +1,15 @@
+---
+next: 
+  text: 'First Steps - Installation'
+  link: '/first-steps/installation'
+---
+
 # Introduction
+
 Welcome to the documentation for SkEditor, a helpful editor specially made for Skript development.
 
 ## Features
+
 - **Skript error checking**: Automatically detects and highlights errors and warnings in your Skript code when you have the Analyzer addon installed.
 - **Syntax highlighting**: Enjoy color-coded syntax to make your code more readable.
 - **Visual GUI generation**: Create Skript GUIs visually, making it easier to design complex interfaces.

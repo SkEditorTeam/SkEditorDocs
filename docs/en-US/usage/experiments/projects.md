@@ -1,4 +1,13 @@
-﻿# Projects
+﻿---
+prev:
+   text: 'Experiments - Code Completion'
+   link: '/usage/experiments/code-completion'
+next: 
+   text: 'Experiments - Hex Preview'
+   link: '/usage/experiments/hex-preview'
+---
+
+# Projects
 
 ::: danger
 This feature is experimental and may not work as expected. Use it at your own risk.
