@@ -6,7 +6,7 @@ hero:
   name: "SkEditor"
   text: "Die moderne IDE für Skript-Entwicklung"
   tagline: "Erstelle leistungsstarke Minecraft-Server-Skripte mit Syntaxhervorhebung, visuellen Werkzeugen und Community-Funktionen. Kostenlos, plattformübergreifend und Open-Source."
-  image: assets/SkEditor-512.png
+  image: /assets/SkEditor-512.png
   actions:
     - theme: brand-button
       text: Herunterladen
