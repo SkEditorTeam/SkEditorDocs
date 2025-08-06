@@ -3,8 +3,8 @@ prev:
    text: 'Erweiterungen - Analyzer'
    link: '/de-DE/addons/analyzer'
 next: 
-   text: 'Fortgeschritten - Mitwirken'
-   link: '/de-DE/advanced/contributing'
+   text: 'Fortgeschritten - Kompilieren'
+   link: '/de-DE/advanced/compiling'
 ---
 
 # Eine Erweiterung erstellen

@@ -1,10 +1,8 @@
 ---
 prev:
-   text: 'Erweiterungen - Eine Erweiterung erstellen'
-   link: '/de-DE/addons/creating-an-addon'
-next: 
    text: 'Fortgeschritten - Kompilieren'
    link: '/de-DE/advanced/compiling'
+next: false
 ---
 
 
