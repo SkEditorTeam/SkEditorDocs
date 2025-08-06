@@ -91,6 +91,16 @@
  * -------------------------------------------------------------------------- */
 
 :root {
+  --vp-c-bg: #1a1a1f;
+  --vp-c-brand-1: #4ade80;
+  --vp-sidebar-bg-color: #151518;
+  --vp-c-bg-alt: #1f1f24;
+  --vp-button-brand-bg: #0faa5f;
+  --vp-button-brand-hover-bg: #0b874b;
+  --vp-c-text-1: #e4e4e7;
+  --vp-c-text-2: #a1a1aa;
+  --vp-c-divider: #27272a;
+  --vp-c-brand-soft: rgba(74, 222, 128, 0.14);
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
