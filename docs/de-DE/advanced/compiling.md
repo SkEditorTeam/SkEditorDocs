@@ -1,8 +1,11 @@
 ---
 prev:
-   text: 'Fortgeschritten - Übersicht'
-   link: '/de-DE/advanced/overview'
-next: false
+   text: 'Erweiterungen - Eine Erweiterung erstellen'
+   link: '/de-DE/addons/creating-an-addon'
+next: 
+   text: 'Fortgeschritten - Mitwirken'
+   link: '/de-DE/advanced/contributing'
+
 ---
 
 # Kompilieren
