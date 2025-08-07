@@ -3,7 +3,7 @@ prev:
    text: 'Experiments - Hex Preview'
    link: '/usage/experiments/hex-preview'
 next: 
-   text: 'Extensions - Creating an Addon'
+   text: 'Addons - Creating an Addon'
    link: '/addons/creating-an-addon'
 ---
 

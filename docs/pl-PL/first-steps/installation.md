@@ -1,92 +1,96 @@
 ---
 prev:
-   text: 'First Steps - Introduction'
-   link: '/first-steps/intro'
+   text: 'Pierwsze kroki - Wprowadzenie'
+   link: '/pl-PL/first-steps/intro'
 next: 
-   text: 'Usage - FTP Integration'
-   link: '/usage/ftp-integration'
+   text: 'Korzystanie - Integracja FTP'
+   link: '/pl-PL/usage/ftp-integration'
 ---
 
-# Installation
+# Instalacja
 
-SkEditor is straightforward to install across different platforms. Follow the instructions below for your operating system.
+SkEditor można łatwo zainstalować na wielu systemach. Postępuj zgodnie z poniższymi instrukcjami dla swojego systemu operacyjnego.
 
-## Prerequisites
+## Wymagania wstępne
 
-Before installing SkEditor, make sure you have the .NET 8.0 Runtime installed on your system. You can download it from the [.NET downloads page](https://dotnet.microsoft.com/download/dotnet/8.0).
+Przed zainstalowaniem SkEditora musisz upewnić się, że masz zainstalowany .NET 8.0 Runtime. Można go pobrać ze [strony pobierania .NET](https://dotnet.microsoft.com/download/dotnet/8.0).
 
 ## Windows
 
-SkEditor offers three installation methods for Windows users:
+SkEditor oferuje trzy metody instalacji dla użytkowników Windowsa:
 
-### Method 1: Installer (Recommended)
+### Metoda 1: Instalator (zalecana)
 
-1. Go to the [Releases page](https://github.com/SkEditorTeam/SkEditor/releases/latest)
-2. Download `SkEditorInstaller.msi`
-3. Run the installer and follow the setup prompts
-4. SkEditor will install to `C:\Program Files\SkEditor` by default and create a desktop shortcut
+1. Przejdź do strony [Releases](https://github.com/SkEditorTeam/SkEditor/releases/latest)
+2. Pobierz `SkEditorInstaller.msi`
+3. Uruchom instalator i postępuj zgodnie z instrukcjami instalacji
+4. SkEditor domyślnie zainstaluje się w `C:\Program Files\SkEditor` i utworzy skrót na pulpicie
 
-### Method 2: Windows Package Manager (winget)
+### Metoda 2: Menedżer pakietów Windows (winget)
 
-For users with winget installed (it comes pre-installed on Windows 11 and recent Windows 10 versions):
+Dla osób z zainstalowanym wingetem (jest preinstalowany w Windows 11 i nowszych wersjach Windows 10):
 
 ```bash
 winget install Notro.SkEditor
 ```
 
-### Method 3: Portable Version
+### Metoda 3: Wersja przenośna
 
-1. Download the appropriate `.zip` file from the [Releases page](https://github.com/SkEditorTeam/SkEditor/releases/latest)
-2. Extract it to your preferred directory
-3. Run `SkEditor.exe` directly
+1. Pobierz odpowiedni plik `.zip` ze [strony Releases](https://github.com/SkEditorTeam/SkEditor/releases/latest)
+2. Rozpakuj go do wybranego folderu
+3. Uruchom bezpośrednio plik `SkEditor.exe`
 
-::: info Note on Portable Version
-Despite being "portable," this version still requires .NET Runtime and creates files in `%AppData%`.
+::: info Uwaga dotycząca wersji przenośnej
+Pomimo bycia "przenośną", ta wersja nadal wymaga .NET Runtime i tworzy pliki w `%AppData%`.
 :::
 
-::: tip ARM64 Devices
-ARM64 users must use the portable ARM64 version since the installer and winget versions are x64 only.
+::: tip Urządzenia ARM64
+Użytkownicy ARM64 muszą korzystać z przenośnej wersji ARM64, ponieważ wersje instalatora i winget są tylko x64.
 :::
 
 ## Linux
 
-Linux users can run SkEditor using the portable version:
+Użytkownicy Linuksa mogą uruchomić SkEditor w wersji przenośnej:
 
-1. Download the Linux `.zip` file from the [Releases page](https://github.com/SkEditorTeam/SkEditor/releases/latest)
-2. Extract it to your preferred directory
-3. Set executable permissions:
+1. Pobierz plik `.zip` dla Linuksa ze [strony Releases](https://github.com/SkEditorTeam/SkEditor/releases/latest)
+2. Rozpakuj go do wybranego folderu
+3. Oznacz plik jako wykonywalny:
 
    ```bash
    chmod +x SkEditor
    ```
 
-4. Run the application
+4. Uruchom aplikację:
 
-::: details Future Linux Support
-I'm currently looking into publishing SkEditor as a Flatpak, which would make it easier to install on Linux systems. While it's not my top priority right now, I hope to have it ready in the future. If you're interested in helping with this, please reach out to me on Discord!
+   ```bash
+   ./SkEditor
+   ```
+
+::: details Obsługa Linuksa w przyszłości
+Obecnie zastanawiam się nad opublikowaniem SkEditor jako Flatpak, co ułatwiłoby jego instalację na Linuksie. Choć nie jest to obecnie moim priorytetem, mam nadzieję, że w niedalekiej przyszłości uda mi się to zrobić. Jeśli jesteś zainteresowany pomocą w zakresie publikacji SkEditora na Linuksie, skontaktuj się ze mną na Discordzie!
 :::
 
 ## macOS
 
-Installing SkEditor on macOS is a bit more complicated because of Apple's security policies. Follow these steps:
+Instalacja SkEditora na macOS jest nieco bardziej skomplikowana ze względu na politykę bezpieczeństwa Apple. Wykonaj następujące kroki:
 
-1. Determine whether you have an Intel or Apple Silicon Mac:
-   - For Intel Macs, download the x64 version.
-   - For Apple Silicon Macs, download the ARM64 version.
-   - If you're unsure, you can check your Mac's architecture by going to "About This Mac" in the Apple menu.
-2. Download the appropriate `.zip` file from the [Releases page](https://github.com/SkEditorTeam/SkEditor/releases/latest)
-3. Extract the contents of the `.zip` file. You should now have the SkEditor.app package.
-4. Open a terminal window and navigate to the directory where you extracted SkEditor.
-5. Run the following command to allow SkEditor to run:
+1. Określ, czy posiadasz Maczka z Intelem czy Apple Silicon:
+   - W przypadku Intela, pobierz wersję x64.
+   - Jeśli masz Apple Silicon, pobierz wersję ARM64.
+   - Jeśli nie jesteś pewny, możesz sprawdzić architekturę w sekcji "Informacje o tym Macu" w menu.
+2. Pobierz odpowiedni plik `.zip` ze [strony Releases](https://github.com/SkEditorTeam/SkEditor/releases/latest)
+3. Wypakuj zawartość pliku `.zip`. Powinieneś mieć teraz pakiet `SkEditor.app`.
+4. Otwórz terminal i przejdź do katalogu, w którym rozpakowałeś plik.
+5. Uruchom tę komendę, aby zezwolić na uruchomienie SkEditora:
 
    ```bash
    xattr -d com.apple.quarantine SkEditor.app
    ```
 
-6. It should now work fine!
+6. Teraz powinno działać!
 
-::: details Why the Terminal Command?
-You might wonder why you need to run some sketchy command in the terminal. This is because of macOS's security policies that prevent apps downloaded from the internet from running without explicit permission. The command removes the quarantine attribute, allowing SkEditor to run without issues.
+::: details O co chodzi z tą komendą?
+Możesz zastanawiać się, czemu musisz uruchomić jakąś podejrzaną komendę w terminalu. To przez zasady bezpieczeństwa macOS, które nie pozwalają uruchamianie aplikacji pobranych z internetu bez wyraźnego pozwolenia. Komenda ta usuwa atrybut kwarantanny, pozwalając na uruchomienie aplikacji.
 
-I can't provide a more user-friendly solution - it would require paying Apple for a developer certificate.
+Nie mogę zapewnić bardziej przyjaznego dla użytkownika rozwiązania - wymagałoby to zapłacenia Apple za certyfikat dewelopera.
 :::

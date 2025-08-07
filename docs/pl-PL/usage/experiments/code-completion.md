@@ -1,26 +1,26 @@
 ﻿---
 prev:
-   text: 'Usage - Experiments'
-   link: '/usage/experiments'
+   text: 'Korzystanie - Eksperymenty'
+   link: '/pl-PL/usage/experiments'
 next: 
-   text: 'Experiments - Projects'
-   link: '/usage/experiments/projects'
+   text: 'Korzystanie - Projekty'
+   link: '/pl-PL/usage/experiments/projects'
 ---
 
-# Code Completion
+# Uzupełnianie kodu
 
 ::: danger
-This feature is experimental and may not work as expected. Use it at your own risk.
+Ta funkcja jest eksperymentalna i może nie działać zgodnie z oczekiwaniami. Korzystaj z niej na własne ryzyko.
 :::
 
 ::: info
-It's a very early prototype and is far from being a complete solution. It will **NOT** be finished in this state and will be replaced with a fully functional version in the future.
+Jest to bardzo wczesny prototyp i daleko mu do kompletnego rozwiązania. W tym stanie **NIE** zostanie ukończony i w przyszłości zostanie zastąpiony w pełni funkcjonalną wersją.
 :::
 
-**Code Completion**, called **Auto Completion** in the experiment list, is a feature that provides suggestions for completing code as you type.
+**Uzupełnianie składni**, nazywane **Auto Completion** na liście eksperymentów, to funkcja, która pokazuje sugestie dotyczące uzupełniania kodu podczas pisania.
 
-## How to use
+## Jak używać
 
-1. Enable the "Auto Completion" experiment in the `Experiments` section of the settings.
-2. Open a file in the editor (it won't work in files opened before enabling the experiment).
-3. Start typing code in the editor. There are a very limited number of suggestions available, like `command`, `send`, `if` (they paste entire sections) etc. It should also suggest variable names.
+1. Włącz eksperyment "Auto Completion" w sekcji "Eksperymenty" w ustawieniach.
+2. Otwórz plik w edytorze (nie będzie działać w plikach otwartych przed włączeniem eksperymentu).
+3. Zacznij pisać kod w edytorze. Dostępna jest bardzo mała liczba sugestii, takich jak `command`, `send`, `if` (wklejają całe sekcje) itp. Funkcja powinna również sugerować nazwy zmiennych.

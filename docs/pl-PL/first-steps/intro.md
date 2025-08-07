@@ -1,18 +1,18 @@
 ---
 next: 
-  text: 'First Steps - Installation'
-  link: '/first-steps/installation'
+  text: 'Pierwsze kroki - Instalacja'
+  link: '/pl-PL/first-steps/installation'
 ---
 
-# Introduction
+# Wprowadzenie
 
-Welcome to the documentation for SkEditor, a helpful editor specially made for Skript development.
+Witamy w dokumentacji SkEditora, pomocnego edytora stworzonego specjalnie do pisania skryptów w języku Skript.
 
-## Features
+## Funkcje
 
-- **Skript error checking**: Automatically detects and highlights errors and warnings in your Skript code when you have the Analyzer addon installed.
-- **Syntax highlighting**: Enjoy color-coded syntax to make your code more readable.
-- **Visual GUI generation**: Create Skript GUIs visually, making it easier to design complex interfaces.
-- **Script sharing**: Share your Skript files by publishing them to services like Pastebin or skUnity Parser.
-- **Marketplace**: Access the marketplace to find and install addons, themes, and syntaxes to enhance your Skript development experience.
-- **Customizable themes**: Choose from a variety of themes or create your own to personalize the editor's appearance.
+- **Sprawdzanie błędów**: Automatycznie wykrywa i podkreśla błędy oraz ostrzeżenia w kodzie Skript, jeśli masz zainstalowany dodatek Analyzer.
+- **Podświetlenie składni**: Oznaczenie kolorami elementów składni zwiększa czytelność kodu.
+- **Wizualne tworzenie GUI**: Twórz GUI w wizualnym generatorze, który ułatwia projektowanie złożonych interfejsów.
+- **Udostępnianie skryptów**: Udostępniaj swoje skrypty, publikując je w usługach takich jak code.skript.pl, Pastebin czy skUnity Parser.
+- **Marketplace**: Odwiedź Marketplace, aby znaleźć i zainstalować dodatki, motywy i składnie, dzięki czemu dostosujesz edytor do swoich potrzeb.
+- **Konfigurowalne motywy**: Wybieraj spośród motywów w Marketplace lub twórz własne, aby spersonalizować wygląd edytora.

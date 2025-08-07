@@ -14,7 +14,7 @@ This feature is experimental and may not work as expected. Use it at your own ri
 :::
 
 ::: info
-While this is an experimental feature, Projects is more stable than other experiments and is actively used in production. It will be further developed and improved in the future.
+While this is an experimental feature, Projects experiment is more stable than other experiments and is actively used in production. It will be further developed and improved in the future.
 :::
 
 ::: tip Important Note

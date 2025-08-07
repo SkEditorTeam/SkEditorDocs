@@ -1,43 +1,43 @@
 ﻿---
 prev:
-   text: 'First Steps - Installation'
-   link: '/first-steps/installation'
+   text: 'Pierwsze kroki - Instalacja'
+   link: '/pl-PL/first-steps/installation'
 next: 
-   text: 'Usage - Experiments'
-   link: '/usage/experiments'
+   text: 'Korzystanie - Eksperymenty'
+   link: '/pl-PL/usage/experiments'
 ---
 
-# FTP Integration
+# Integracja FTP
 
-There's no built-in FTP/SFTP explorer in the current version of the app.
-However, you can use SkEditor with an FTP client to edit files on your server almost seamlessly.
+W obecnej wersji aplikacji nie ma wbudowanego eksploratora FTP/SFTP.
+Można jednak bezproblemowo używać SkEditora z klientem FTP do edycji plików na serwerze.
 
 ## WinSCP
 
-WinSCP is a popular FTP client for Windows that supports many protocols and is easy to use.
-You can download it from the [WinSCP website](https://winscp.net/eng/download.php).
+WinSCP to popularny klient FTP dla systemu Windows, obsługujący wiele protokołów i będący łatwy w użyciu.
+Możesz go pobrać ze [strony WinSCP](https://winscp.net/eng/download.php).
 
-### Setting up WinSCP to use SkEditor
+### Ustawienie SkEditora w WinSCP
 
-1. Launch WinSCP
-2. In the top menu, click on `View` and select `Preferences`
-3. In the Preferences window, select `Editors` from the left sidebar
-4. Click the `Add` button
-5. Choose "External editor"
-6. In the text field below, enter the path to the SkEditor executable (or use the `Browse` button to find it)
-    - If you installed SkEditor in the default location, it should be something like `C:\Program Files\SkEditor\SkEditor.exe`
-7. In the "Editor autoselection" section, specify the file types you want to open with SkEditor
-    - For example, to open only Skript and YAML files, you can enter `*.sk,*.yml`
-    - You can also use `*.*` to open all files with SkEditor
-8. Click `OK` to save the settings
-9. Select `SkEditor` from the list of editors and move it to the top of the list to make sure it will enforce these rules
+1. Uruchom WinSCP
+2. W górnym menu kliknij `Widok` i wybierz `Preferencje`.
+3. W oknie Preferencje wybierz `Edytor` z lewego paska bocznego
+4. Kliknij przycisk `Dodaj...`
+5. Wybierz "Zewnętrzny edytor"
+6. W polu tekstowym poniżej wpisz ścieżkę do pliku `SkEditor.exe` (lub użyj przycisku `Przeglądaj`, aby go znaleźć).
+    - Jeśli zainstalowałeś SkEditora w domyślnej lokalizacji, powinien znajdować się tu: `C:\Program Files\SkEditor\SkEditor.exe`
+7. W sekcji "Automatyczny wybór edytora" określ typy plików, które chcesz otwierać za pomocą SkEditora
+    - Na przykład, aby otwierał tylko pliki Skript i YAML, można wpisać `*.sk,*.yml`
+    - Możesz również użyć `*.*`, by wszystkie pliki były otwierane w SkEditorze
+8. Kliknij `OK`, by zapisać ustawienia
+9. Wybierz `SkEditor` z listy edytorów i przenieś go na górę listy, aby zmiana na pewno zadziałała
 
-### Using SkEditor with WinSCP
+### Używanie SkEditor z WinSCP
 
-1. Connect to your server using WinSCP
-2. Open the file you want to edit by double-clicking it or selecting it and clicking the `Edit` button
-3. SkEditor will launch with the selected file
-4. Make your changes in SkEditor
-5. Save the file in SkEditor (Ctrl + S or File > Save)
-6. WinSCP will automatically detect the changes and upload the modified file back to the server
-7. Done! You can now continue editing other files or close WinSCP.
+1. Połącz się z serwerem w WinSCP
+2. Otwórz plik, który chcesz edytować, dwukrotnie go klikając lub używając PPM -> `Edit`.
+3. SkEditor uruchomi się z wybranym plikiem
+4. Zmodyfikuj plik w SkEditorze
+5. Zapisz plik w SkEditor (Ctrl + S lub Plik > Zapisz)
+6. WinSCP automatycznie wykryje zmiany i prześle zmodyfikowany plik z powrotem na serwer.
+7. Gotowe! Możesz teraz kontynuować edycję innych plików lub zamknąć WinSCP.

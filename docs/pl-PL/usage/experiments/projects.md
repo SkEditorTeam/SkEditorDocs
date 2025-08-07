@@ -1,28 +1,28 @@
 ﻿---
 prev:
-   text: 'Experiments - Code Completion'
-   link: '/usage/experiments/code-completion'
+   text: 'Eksperymenty - Uzupełnianie kodu'
+   link: '/pl-PL/usage/experiments/code-completion'
 next: 
-   text: 'Experiments - Hex Preview'
-   link: '/usage/experiments/hex-preview'
+   text: 'Eksperymenty - Podgląd Hex'
+   link: '/pl-PL/usage/experiments/hex-preview'
 ---
 
-# Projects
+# Projekty
 
 ::: danger
-This feature is experimental and may not work as expected. Use it at your own risk.
+Ta funkcja jest eksperymentalna i może nie działać zgodnie z oczekiwaniami. Korzystaj z niej na własne ryzyko.
 :::
 
 ::: info
-While this is an experimental feature, Projects is more stable than other experiments and is actively used in production. It will be further developed and improved in the future.
+Mimo, że to funkcja eksperymentalna, Projekty są bardziej stabilne niż inne eksperymenty i są aktywnie wykorzystywane. Funkcja ta będzie dalej rozwijana i ulepszana w przyszłości.
 :::
 
-::: tip Important Note
-The experiment toggle doesn't actually do anything - the feature is always enabled due to changes made a while back.
+::: tip Ważna uwaga
+Przełącznik eksperymentu w rzeczywistości nic nie robi - funkcja jest zawsze włączona przez zmiany wprowadzone jakiś czas temu.
 
-You **don't** need to enable the experiment to use Projects. You can use it right away from the sidebar.
+**Nie musisz** włączać eksperymentu, aby korzystać z Projektów. Można z nich korzystać od razu na pasku bocznym.
 :::
 
-**Projects** is a feature that lets you open folders inside SkEditor. Technically, it doesn't implement "projects" in the traditional sense, but rather allows you to open a folder and work with files inside it.
+**Projekty** (Projects) to funkcja umożliwiająca otwieranie folderów wewnątrz SkEditora. Technicznie rzecz biorąc, nie implementuje ona "projektów" w tradycyjnym sensie, ale aktualnie pozwala na otwarcie folderu i pracę z plikami wewnątrz niego.
 
-Many features aren't implemented yet, like detecting file changes in the folder. In the future, a full-fledged project management system will be implemented.
+Wiele funkcji nie zostało jeszcze zaimplementowanych, takich jak wykrywanie zmian plików w folderze. W przyszłości zaimplementowany zostanie pełnoprawny system zarządzania projektami.

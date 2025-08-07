@@ -1,19 +1,19 @@
 ﻿---
 prev:
-   text: 'Usage - FTP Integration'
-   link: '/usage/ftp-integration'
+   text: 'Korzystanie - Integracja FTP'
+   link: '/pl-PL/usage/ftp-integration'
 next: 
-   text: 'Experiments - Code Completion'
-   link: '/usage/experiments/code-completion'
+   text: 'Korzystanie - Uzupełnianie kodu'
+   link: '/pl-PL/usage/experiments/code-completion'
 ---
 
-# Experiments
+# Eksperymenty
 
 ::: danger
-Experiments are called that for a reason. They may be unstable, incomplete, and make your experience worse.
+Eksperymenty są tak nazywane nie bez powodu. Mogą być niestabilne, niekompletne czy nawet pogorszyć twoje doświadczenia.
 :::
 
-Experiments are features that allow you to test new functionality.
-They can be enabled easily in the settings in their dedicated Experiments section.
+Eksperymenty to funkcje umożliwiające testowanie nowych funkcjonalności.
+Można je łatwo włączyć w ustawieniach w dedykowanej sekcji Eksperymenty.
 
-<img src="./images/experiments.webp" alt="Settings window" style="border-radius: 5px;" />
+<img src="./images/experiments.webp" alt="Okno ustawień eksperymentów" style="border-radius: 5px;" />

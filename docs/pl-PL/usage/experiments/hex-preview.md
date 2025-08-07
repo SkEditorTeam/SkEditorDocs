@@ -1,19 +1,19 @@
 ﻿---
 prev:
-   text: 'Experiments - Projects'
-   link: '/usage/experiments/projects'
+   text: 'Eksperymenty - Projekty'
+   link: '/pl-PL/usage/experiments/projects'
 next: 
-   text: 'Extensions - Analyzer'
-   link: '/addons/analyzer'
+   text: 'Dodatki - Analyzer'
+   link: '/pl-PL/addons/analyzer'
 ---
 
-# Hex Preview
+# Podgląd Hex
 
 ::: danger
-This feature is experimental and may not work as expected. Use it at your own risk.
+Ta funkcja jest eksperymentalna i może nie działać zgodnie z oczekiwaniami. Korzystaj z niej na własne ryzyko.
 :::
 
-The **Hex Preview** feature highlights hex color values in their actual color.
-So, if you have a color like `<#b31b55>` in your text, it will be highlighted in the color that the hex value represents.
+Funkcja **Podglądu Hex** (Hex Preview) podświetla wartości kolorów szesnastkowych w ich rzeczywistym kolorze.
+Tak więc, jeśli masz kolor taki jak `<#b31b55>` w tekście, zostanie on podświetlony w kolorze reprezentowanym przez wartość szesnastkową.
 
-<img src="./images/hex-preview.png" alt="Settings window" style="border-radius: 5px;" />
+<img src="./images/hex-preview.png" alt="Funkcja Hex preview w kodzie" style="border-radius: 5px;" />

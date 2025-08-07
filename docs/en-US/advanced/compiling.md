@@ -1,6 +1,6 @@
 ---
 prev:
-   text: 'Extensions - Creating an Addon'
+   text: 'Addons - Creating an Addon'
    link: '/addons/creating-an-addon'
 next:
    text: 'Advanced - Contributing'

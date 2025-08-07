@@ -1,6 +1,6 @@
 ﻿---
 prev:
-   text: 'Extensions - Analyzer'
+   text: 'Addons - Analyzer'
    link: '/addons/analyzer'
 next: 
    text: 'Advanced - Compiling'
