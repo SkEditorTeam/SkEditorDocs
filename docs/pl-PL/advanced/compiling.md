@@ -1,70 +1,69 @@
 ---
 prev:
-   text: 'Extensions - Creating an Addon'
-   link: '/addons/creating-an-addon'
+   text: 'Dodatki - Tworzenie dodatku'
+   link: '/pl-PL/addons/creating-an-addon'
 next:
-   text: 'Advanced - Contributing'
+   text: 'Zaawansowane - Wkład'
    link: '/advanced/contributing'
 ---
 
-# Compiling
+# Kompilowanie
 
-You might want to compile SkEditor yourself, for example, to test new features from a `dev` branch.
-This is quite easy to do in .NET, and you can get it done in a few steps.
+Może zdarzyć się sytuacja, że będziesz chciał samemu skompilować SkEditora, na przykład w celu przetestowania nowych funkcji z gałęzi `dev`.
+W .NET jest to dość łatwe i można to zrobić w kilku krokach.
 
-## Prerequisites
+## Wymagania wstępne
 
-- [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+- [SDK .NET 8.0](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [Git](https://git-scm.com/downloads)
 
-## Cloning the repository
+## Klonowanie repozytorium
 
-You can clone the repository using the following command:
+Repozytorium możesz sklonować za pomocą tego polecenia:
 
 ```bash
 git clone -b dev/dev https://github.com/SkEditorTeam/SkEditor.git
 ```
 
-This will clone the `dev/dev` branch of the repository. If you want to clone a different branch, you can replace `dev/dev` with the desired branch name or leave out the `-b` option completely to clone the `main` branch.
+Sklonuje ono gałąź `dev/dev` repozytorium. Jeśli interesuje Cię inna gałąź, możesz zastąpić `dev/dev` nazwą innej gałęzi albo całkowicie pominąć parametr `-b`, żeby sklonować gałąź `main`.
 
-## Navigating to the project directory
+## Przejście do katalogu projektu
 
-The repository contains two projects: `SkEditor` and `Installer`, so you need to navigate to the `SkEditor` project directory to compile it. You can do this with the following command (assuming you are in the root directory of the cloned repository):
+Repozytorium zawiera dwa projekty: `SkEditor` i `Installer`, więc musisz przejść do folderu `SkEditor`, żeby go skompilować. Możesz to zrobić za pomocą poniższego polecenia (o ile jesteś w katalogu głównym sklonowanego repozytorium):
 
 ```bash
 cd SkEditor
 ```
 
-## Compiling the project
+## Kompilowanie projektu
 
-Now you can run the app using a single command:
+Teraz, gdy jesteś w katalogu projektu, możesz skompilować i uruchomić program za pomocą polecenia:
 
 ```bash
 dotnet run
 ```
 
-And publish it with:
+I opublikować go za pomocą polecenia:
 
 ```bash
 dotnet publish
 ```
 
-This will build and publish the project, with the output being placed somewhere in the `bin/Release/net8.0` folder (the command output will tell you the exact path).
+Komenda ta zbuduje i opublikuje projekt, a gotowe pliki znajdziesz gdzieś w folderze `bin/Release/net8.0` (wynik polecenia powinien wskazać dokładną ścieżkę).
 
-But that's only the simplest way to publish the project. There are tons of options you can use to customize the build process, which you can find in the [official documentation](https://learn.microsoft.com/dotnet/core/tools/dotnet-publish).
+Ale to tylko najprostszy sposób na opublikowanie projektu. Jest wiele opcji, które możesz wykorzystać do dostosowania procesu budowania, które znajdziesz w [oficjalnej dokumentacji](https://learn.microsoft.com/dotnet/core/tools/dotnet-publish).
 
-If you want a clean and efficient build, you can use the following command:
+Na przykład, jeśli chcesz czysty i wydajny build, możesz użyć następującego polecenia:
 
 ```bash
 dotnet publish -c Release -r win-x64 --no-self-contained -p:PublishSingleFile=true -p:PublishReadyToRun=true
 ```
 
-This command will:
+Ta komenda:
+- Kompiluje projekt w konfiguracji `Release`
+- Celuje w środowisko `win-x64` (Windows 64-bit) (możesz to zmienić na `linux-x64`, `osx-x64` itp.)
+- NIE załączy środowiska .NET (więc użytkownik będzie musiał mieć zainstalowane .NET 8.0)
+- Publikuje projekt jako "pojedynczy plik" (a tak naprawdę jako pojedynczy plik wykonywalny - w folderze wyjściowym nadal będą pliki DLL, które są wymagane do działania aplikacji)
+- Włącza kompilację R2R (ReadyToRun), co poprawia czas uruchamiania aplikacji
 
-- Make sure the build is in `Release` configuration
-- Target the `win-x64` runtime (you can change this to `linux-x64`, `osx-x64`, etc. if needed)
-- NOT include the .NET runtime in the output (so the user will need to have .NET 8.0 installed)
-- Publish the project as a single file (well, a single executable file - there will still be some DLL files in the output folder that are required for the app to run)
-- Enable R2R compilation, which improves the startup time of the application
-
-You can tweak these options to fit your needs, but this is a good starting point for most use cases.
+Możesz żonglować tymi ustawieniami jak tylko chcesz, ale komenda powyżej jest dobrym punktem wyjścia dla większości przypadków użycia i mniej więcej z takiej konfiguracji korzystamy w oficjalnych wydaniach SkEditora.

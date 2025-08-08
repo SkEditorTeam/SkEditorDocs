@@ -46,5 +46,5 @@ Bug fixes are always welcome and appreciated, so please don't hesitate to submit
 
 ## Features
 
-Features are a bit trickier. If you want to implement a new feature, it would be best to ask first on Discord - either privately (by messaging Notro) or in the Discord server.
+Features are a bit trickier. If you want to implement a new feature, it would be best to ask first on Discord - either privately (by messaging Notro) or in the Discord server (`#dev` channel is the perfect place).
 This way, we can discuss the feature first. I wouldn't want your work to go to waste!

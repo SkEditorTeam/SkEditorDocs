@@ -71,7 +71,7 @@ public class TestAddon : IAddon
     ```
 
 2. **DLL finden**: Nach dem Erstellen, lokalisiere die generierte DLL-Datei. Sie sollte sich in einem Verzeichnis wie `/bin/Release/net8.0` befinden und nach deinem Projekt benannt sein (z.B. `SkEditorTestAddon.dll`).
-3. **Erweiterung installieren**: Kopiere die DLL-Datei in einen Ordner im SkEditor-Erweiterungsverzeichnis, das sich unter `%appdata%/SkEditor/Addons` auf Windows oder `~/.skeditor/Addons` auf Linux und macOS befindet.
+3. **Erweiterung installieren**: Kopiere die DLL-Datei in einen Ordner im SkEditor-Erweiterungsverzeichnis, das sich unter `%appdata%/SkEditor/Addons` auf Windows, `~/.config/SkEditor/Addons` auf Linux oder `~/Library/Application Support/SkEditor/Addons` auf macOS befindet.
    Du kannst beispielsweise einen Ordner namens `TestAddon` erstellen und die DLL dort ablegen. Du kannst auch den `Entwicklermodus` in den SkEditor-Einstellungen (Bereich `Über`) aktivieren und dann die Schaltfläche `Von Datei laden` im Bereich `Erweiterungen` verwenden, um deine Erweiterung direkt von der DLL-Datei zu laden.
 4. **SkEditor neu starten**: Nachdem du die DLL im Erweiterungsverzeichnis platziert hast, starte SkEditor neu, um deine Erweiterung zu laden. Dies sollte nicht notwendig sein, wenn du die Schaltfläche `Von Datei laden` verwendet hast.
 5. **Viel Spaß!** Wenn du Fragen hast oder Hilfe benötigst, kannst du dich gerne im SkEditor Discord-Server melden - es gibt einen speziellen `#dev`-Kanal, in dem du dieses Thema besprechen kannst!

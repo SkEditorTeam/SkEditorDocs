@@ -107,7 +107,7 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       text: 'Zaawansowane',
       collapsed: true,
       items: [
-        { text: 'Kompilacja', link: '/advanced/compiling' },
+        { text: 'Kompilowanie', link: '/advanced/compiling' },
         { text: 'Wkład', link: '/advanced/contributing' }
       ]
     }
