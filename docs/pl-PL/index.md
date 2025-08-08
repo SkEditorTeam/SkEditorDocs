@@ -24,7 +24,7 @@ hero:
 features:
   - title: "<span class='emoji'>💻</span> Działa na wielu systemach"
     details: SkEditor działa bezproblemowo na Windowsie, Linuxie i macOS, zapewniając swobodę kodowania w Twoim ulubionym systemie.
-  - title: "<span class='emoji'>🧩</span> Extensible with Addons"
+  - title: "<span class='emoji'>🧩</span> Rozszerzenia i dodatki"
     details: Rozszerz możliwości SkEditora dzięki dodatkom dostępnym w Marketplace, takimi jak Analyzer.
   - title: "<span class='emoji'>🎨</span> Pełna personalizacja"
     details: Spersonalizuj swoje środowisko programistyczne dzięki motywom i podświetlaniu składni. Spraw, aby SkEditor był naprawdę Twój!
