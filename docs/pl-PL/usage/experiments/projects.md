@@ -9,11 +9,11 @@ next:
 
 # Projekty
 
-::: danger
+::: danger UWAGA
 Ta funkcja jest eksperymentalna i może nie działać zgodnie z oczekiwaniami. Korzystaj z niej na własne ryzyko.
 :::
 
-::: info
+::: info Informacja
 Mimo, że to funkcja eksperymentalna, Projekty są bardziej stabilne niż inne eksperymenty i są aktywnie wykorzystywane. Funkcja ta będzie dalej rozwijana i ulepszana w przyszłości.
 :::
 

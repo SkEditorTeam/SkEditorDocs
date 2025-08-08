@@ -9,7 +9,7 @@ next:
 
 # Eksperymenty
 
-::: danger
+::: danger UWAGA
 Eksperymenty są tak nazywane nie bez powodu. Mogą być niestabilne, niekompletne czy nawet pogorszyć twoje doświadczenia.
 :::
 

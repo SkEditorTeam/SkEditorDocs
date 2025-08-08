@@ -30,8 +30,8 @@ Chcesz przyczynić się do SkEditora? Świetnie! Oto kilka wskazówek, które po
 - Prywatne pola klasy powinny być poprzedzone znakiem `_` (np. `_prywatnePole`)
 - Stałe powinny być nazwane używając `PascalCase`
 
-::: tip
-Ale... Wiesz co? Najważniejszą zasadą jest: **po prostu nie zrób totalnego chaosu!**
+::: tip Ale... Wiesz co?
+Najważniejszą zasadą jest: **po prostu nie zrób totalnego chaosu!**
 
 Współczesne IDE mogą automatycznie zastosować większość z tych zasad lub Cię o nich poinformować.
 Nie trudno jest je też zastosować ręcznie. Więc nie martw się zbytnio o to!

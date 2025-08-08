@@ -9,7 +9,7 @@ next:
 
 # Podgląd Hex
 
-::: danger
+::: danger UWAGA
 Ta funkcja jest eksperymentalna i może nie działać zgodnie z oczekiwaniami. Korzystaj z niej na własne ryzyko.
 :::
 

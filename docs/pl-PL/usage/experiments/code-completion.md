@@ -9,11 +9,11 @@ next:
 
 # Uzupełnianie kodu
 
-::: danger
+::: danger UWAGA
 Ta funkcja jest eksperymentalna i może nie działać zgodnie z oczekiwaniami. Korzystaj z niej na własne ryzyko.
 :::
 
-::: info
+::: info Ważna informacja
 Jest to bardzo wczesny prototyp i daleko mu do kompletnego rozwiązania. W tym stanie **NIE** zostanie ukończony i w przyszłości zostanie zastąpiony w pełni funkcjonalną wersją.
 :::
 
