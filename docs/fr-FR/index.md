@@ -13,7 +13,7 @@ hero:
       link: https://github.com/SkEditorTeam/SkEditor/releases/latest
     - theme: brand-button
       text: Documentation
-      link: /first-steps/intro
+      link: /fr-FR/first-steps/intro
     - theme: alt
       text: GitHub
       link: https://github.com/SkEditorTeam/SkEditor
