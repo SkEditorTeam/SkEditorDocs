@@ -7,6 +7,7 @@ import {
 import { configDeDE, searchOptionsDeDE } from '../de-DE/config'
 import { configPlPL, searchOptionsPlPL } from '../pl-PL/config'
 import { configNlNL, searchOptionsNlNL } from '../nl-NL/config'
+import { configFrFR, searchOptionsFrFR } from '../fr-FR/config'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -34,7 +35,8 @@ export default defineConfig({
     },
     'de-DE': configDeDE,
     'pl-PL': configPlPL,
-    'nl-NL': configNlNL
+    'nl-NL': configNlNL,
+    'fr-FR': configFrFR
   },
 
   appearance: 'force-dark',
@@ -69,7 +71,8 @@ export default defineConfig({
         locales: {
           'de-DE': searchOptionsDeDE(),
           'pl-PL': searchOptionsPlPL(),
-          'nl-NL': searchOptionsNlNL()
+          'nl-NL': searchOptionsNlNL(),
+          'fr-FR': searchOptionsFrFR()
         }
       }
     }
@@ -86,6 +89,8 @@ export default defineConfig({
               return 'Code kopieren'
             case 'nl-NL':
               return 'Code kopiëren'
+            case 'fr-FR':
+              return 'Copier le code'
             default:
               return 'Copy code'
           }
