@@ -19,6 +19,10 @@ Stelle sicher, dass Du das .NET 8.0 Runtime auf Deinem System installiert hast, 
 
 SkEditor bietet drei Installationsmethoden für Windows-Benutzer:
 
+::: warning
+Denke daran, die [Voraussetzungen](#voraussetzungen) zu lesen, bevor Du die folgenden Anweisungen befolgst!
+:::
+
 ### Methode 1: Installer (Empfohlen)
 
 1. Gehe zur [Releases-Seite](https://github.com/SkEditorTeam/SkEditor/releases/latest)
@@ -52,6 +56,10 @@ ARM64-Benutzer müssen die portable ARM64-Version verwenden, da die Installer- u
 
 Linux-Benutzer können SkEditor mit der portablen Version nutzen:
 
+::: warning
+Denke daran, die [Voraussetzungen](#voraussetzungen) zu lesen, bevor Du die folgenden Anweisungen befolgst!
+:::
+
 1. Lade die Linux `.zip`-Datei von der [Releases-Seite](https://github.com/SkEditorTeam/SkEditor/releases/latest) herunter
 2. Entpacke sie in ein Verzeichnis Deiner Wahl
 3. Setze die Ausführungsberechtigungen:
@@ -69,6 +77,10 @@ Ich arbeite derzeit daran, SkEditor als Flatpak zu veröffentlichen, was die Ins
 ## macOS
 
 Die Installation von SkEditor auf macOS ist aufgrund der Sicherheitsrichtlinien von Apple etwas komplizierter. Folge diesen Schritten:
+
+::: warning
+Denke daran, die [Voraussetzungen](#voraussetzungen) zu lesen, bevor Du die folgenden Anweisungen befolgst!
+:::
 
 1. Bestimme, ob Du einen Intel- oder Apple-Silicon-Mac hast:
    - Für Intel-Macs lade die x64-Version herunter.
