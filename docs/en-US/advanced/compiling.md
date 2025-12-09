@@ -17,7 +17,9 @@ This is quite easy to do in .NET, and you can get it done in a few steps.
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [Git](https://git-scm.com/downloads)
 
-::: warning Make sure you have the latest version of the SDK installed. The apt package manager on Linux often installs an older version that could cause issues during compilation. Use the installation script to install the latest version. :::
+::: warning
+Make sure you have the latest version of the SDK installed. The apt package manager on Linux often installs an older version that could cause issues during compilation. Use the installation script to install the latest version.
+:::
 
 ## Cloning the repository
 
