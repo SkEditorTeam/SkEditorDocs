@@ -54,7 +54,7 @@ export default defineConfig({
     sidebar: sidebar(),
     socialLinks: [
       { icon: 'kofi', link: 'https://ko-fi.com/notro' },
-      { icon: 'discord', link: 'https://skeditordc.notro.me' },
+      { icon: 'discord', link: 'https://discord.skeditor.dev' },
       {
         icon: 'github',
         link: 'https://github.com/SkEditorTeam/SkEditor'

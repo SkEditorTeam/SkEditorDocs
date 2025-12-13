@@ -19,7 +19,7 @@ hero:
       link: https://github.com/SkEditorTeam/SkEditor
     - theme: alt
       text: Discord
-      link: https://skeditordc.notro.me
+      link: https://discord.skeditor.dev
 
 features:
   - title: "<span class='emoji'>💻</span> Кроссплатформенная совместимость"
