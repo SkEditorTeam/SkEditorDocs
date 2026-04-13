@@ -16,12 +16,17 @@ export default defineConfig({
   title: 'SkEditor',
   description: 'An app for editing Skript files.',
 
+  sitemap: {
+    hostname: 'https://docs.skeditor.dev',
+    lastmodDateOnly: true
+  },
+
   head: [
     ['link', { rel: 'icon', href: '/assets/SkEditor.svg' }],
     ['meta', { name: 'theme-color', content: '#1cc91fff' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'SkEditor - Docs' }],
-    ['meta', { property: 'og:url', content: 'https://skeditor.notro.me/' }]
+    ['meta', { property: 'og:url', content: 'https://docs.skeditor.dev/' }]
   ],
   cleanUrls: true,
   rewrites: {
