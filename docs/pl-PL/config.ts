@@ -7,6 +7,12 @@ const configPlPL: LocaleConfig = {
   title: 'SkEditor',
   description: 'Apka do edycji plików Skript',
 
+  head: [
+    ['meta', { property: 'og:title', content: 'Dokumentacja SkEditor' }],
+    ['meta', { property: 'og:description', content: 'Nowoczesna i szybka aplikacja do edycji plików Skript.' }],
+    ['meta', { property: 'og:url', content: 'https://docs.skeditor.dev/pl-PL/' }]
+  ],
+
   themeConfig: {
     nav: [
       { text: 'Strona główna', link: '/pl-PL' },

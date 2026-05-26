@@ -7,6 +7,12 @@ const configRuRU: LocaleConfig = {
   title: 'SkEditor',
   description: 'Приложение для редактирования скриптов',
 
+  head: [
+    ['meta', { property: 'og:title', content: 'Документация SkEditor' }],
+    ['meta', { property: 'og:description', content: 'Современное и быстрое приложение для редактирования скриптов.' }],
+    ['meta', { property: 'og:url', content: 'https://docs.skeditor.dev/ru-RU/' }]
+  ],
+
   themeConfig: {
     nav: [
       { text: 'Главная', link: '/ru-RU' },

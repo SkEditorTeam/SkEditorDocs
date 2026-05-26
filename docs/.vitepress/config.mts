@@ -14,6 +14,7 @@ import { configRuRU, searchOptionsRuRU } from '../ru-RU/config'
 export default defineConfig({
   lang: 'en-us',
   title: 'SkEditor',
+  titleTemplate: ':title | SkEditor',
   description: 'An app for editing Skript files.',
 
   sitemap: {
@@ -26,7 +27,8 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#1cc91fff' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'SkEditor - Docs' }],
-    ['meta', { property: 'og:url', content: 'https://docs.skeditor.dev/' }]
+    ['meta', { property: 'og:image', content: 'https://docs.skeditor.dev/assets/SkEditor-512.png' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }]
   ],
   cleanUrls: true,
   rewrites: {
@@ -37,7 +39,15 @@ export default defineConfig({
 
   locales: {
     root: {
-      label: 'English'
+      label: 'English',
+      lang: 'en-US',
+      title: 'SkEditor',
+      description: 'An app for editing Skript files.',
+      head: [
+        ['meta', { property: 'og:title', content: 'SkEditor Documentation' }],
+        ['meta', { property: 'og:description', content: 'An advanced and modern app for editing Skript files.' }],
+        ['meta', { property: 'og:url', content: 'https://docs.skeditor.dev/' }]
+      ]
     },
     'de-DE': configDeDE,
     'pl-PL': configPlPL,

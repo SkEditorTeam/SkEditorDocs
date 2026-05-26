@@ -7,6 +7,12 @@ const configFrFR: LocaleConfig = {
   title: 'SkEditor',
   description: 'Une application pour éditer des fichiers Skript',
 
+  head: [
+    ['meta', { property: 'og:title', content: 'Documentation SkEditor' }],
+    ['meta', { property: 'og:description', content: 'Une application moderne et rapide pour éditer des fichiers Skript.' }],
+    ['meta', { property: 'og:url', content: 'https://docs.skeditor.dev/fr-FR/' }]
+  ],
+
   themeConfig: {
     nav: [
       { text: 'Accueil', link: '/fr-FR' },

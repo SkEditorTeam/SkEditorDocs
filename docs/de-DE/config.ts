@@ -7,6 +7,12 @@ const configDeDE: LocaleConfig = {
   title: 'SkEditor',
   description: 'Eine App zum Bearbeiten von Skriptdateien',
 
+  head: [
+    ['meta', { property: 'og:title', content: 'SkEditor Dokumentation' }],
+    ['meta', { property: 'og:description', content: 'Eine moderne und schnelle App zur Bearbeitung von Skriptdateien.' }],
+    ['meta', { property: 'og:url', content: 'https://docs.skeditor.dev/de-DE/' }]
+  ],
+
   themeConfig: {
     nav: [
       { text: 'Startseite', link: '/de-DE' },
