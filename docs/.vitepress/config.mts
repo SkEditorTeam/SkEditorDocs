@@ -10,6 +10,8 @@ import { configNlNL, searchOptionsNlNL } from '../nl-NL/config'
 import { configFrFR, searchOptionsFrFR } from '../fr-FR/config'
 import { configRuRU, searchOptionsRuRU } from '../ru-RU/config'
 
+const siteImage = 'https://docs.skeditor.dev/assets/SkEditor.svg'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'en-us',
@@ -27,8 +29,9 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#1cc91fff' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'SkEditor - Docs' }],
-    ['meta', { property: 'og:image', content: 'https://docs.skeditor.dev/assets/SkEditor-512.png' }],
-    ['meta', { name: 'twitter:card', content: 'summary_large_image' }]
+    ['meta', { property: 'og:image', content: siteImage }],
+    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { name: 'twitter:image', content: siteImage }]
   ],
   cleanUrls: true,
   rewrites: {
