@@ -74,10 +74,10 @@ Obecnie zastanawiam się nad opublikowaniem SkEditor jako Flatpak, co ułatwiło
 
 Instalacja SkEditora na macOS jest nieco bardziej skomplikowana ze względu na politykę bezpieczeństwa Apple. Wykonaj następujące kroki:
 
-1. Określ, czy posiadasz Maczka z Intelem czy Apple Silicon:
+1. Sprawdź, jaki procesor posiada Twój Mac
    - W przypadku Intela, pobierz wersję x64.
-   - Jeśli masz Apple Silicon, pobierz wersję ARM64.
-   - Jeśli nie jesteś pewny, możesz sprawdzić architekturę w sekcji "Informacje o tym Macu" w menu.
+   - Jeśli masz Apple Silicon (procesory z serii M1, M2, M3 itd.), pobierz wersję ARM64.
+   - Jeśli nie masz pewności, kliknij ikonę Apple w lewym górnym rogu ekranu i wybierz opcję "Ten Mac..." (About This Mac).
 2. Pobierz odpowiedni plik `.zip` ze [strony Releases](https://github.com/SkEditorTeam/SkEditor/releases/latest)
 3. Wypakuj zawartość pliku `.zip`. Powinieneś mieć teraz pakiet `SkEditor.app`.
 4. Otwórz terminal i przejdź do katalogu, w którym rozpakowałeś plik.
