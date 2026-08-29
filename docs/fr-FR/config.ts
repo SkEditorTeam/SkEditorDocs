@@ -65,8 +65,8 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       text: 'Premiers pas',
       collapsed: false,
       items: [
-        { text: 'Introduction', link: '/first-steps/intro' },
-        { text: 'Installation', link: '/first-steps/installation' }
+        { text: 'Introduction', link: 'first-steps/intro' },
+        { text: 'Installation', link: 'first-steps/installation' }
       ]
     },
     {
@@ -75,24 +75,24 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       items: [
         {
           text: 'Intégration FTP',
-          link: '/usage/ftp-integration'
+          link: 'usage/ftp-integration'
         },
         {
           text: 'Expériences',
           collapsed: true,
-          link: '/usage/experiments',
+          link: 'usage/experiments',
           items: [
             {
               text: 'Complétion de code',
-              link: '/usage/experiments/code-completion'
+              link: 'usage/experiments/code-completion'
             },
             {
               text: 'Projets',
-              link: '/usage/experiments/projects'
+              link: 'usage/experiments/projects'
             },
             {
               text: 'Aperçu Hex',
-              link: '/usage/experiments/hex-preview'
+              link: 'usage/experiments/hex-preview'
             }
           ]
         }
@@ -102,10 +102,10 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       text: 'Extensions',
       collapsed: false,
       items: [
-        { text: 'Analyzer', link: '/addons/analyzer' },
+        { text: 'Analyzer', link: 'addons/analyzer' },
         {
           text: 'Créer une extension',
-          link: '/addons/creating-an-addon'
+          link: 'addons/creating-an-addon'
         }
       ]
     },
@@ -113,8 +113,8 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       text: 'Avancé',
       collapsed: true,
       items: [
-        { text: 'Compilation', link: '/advanced/compiling' },
-        { text: 'Contribuer', link: '/advanced/contributing' }
+        { text: 'Compilation', link: 'advanced/compiling' },
+        { text: 'Contribuer', link: 'advanced/contributing' }
       ]
     }
   ]

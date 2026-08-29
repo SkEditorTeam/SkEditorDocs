@@ -65,9 +65,9 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       text: 'Pierwsze kroki',
       collapsed: false,
       items: [
-        { text: 'Wprowadzenie', link: '/first-steps/intro' },
-        { text: 'Instalacja', link: '/first-steps/installation' },
-        { text: 'SkEditor 3 Alpha', link: '/first-steps/skeditor-3-alpha' }
+        { text: 'Wprowadzenie', link: 'first-steps/intro' },
+        { text: 'Instalacja', link: 'first-steps/installation' },
+        { text: 'SkEditor 3 Alpha', link: 'first-steps/skeditor-3-alpha' }
       ]
     },
     {
@@ -76,24 +76,24 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       items: [
         {
           text: 'Integracja FTP',
-          link: '/usage/ftp-integration'
+          link: 'usage/ftp-integration'
         },
         {
           text: 'Eksperymenty',
           collapsed: true,
-          link: '/usage/experiments',
+          link: 'usage/experiments',
           items: [
             {
               text: 'Uzupełnianie kodu',
-              link: '/usage/experiments/code-completion'
+              link: 'usage/experiments/code-completion'
             },
             {
               text: 'Projekty',
-              link: '/usage/experiments/projects'
+              link: 'usage/experiments/projects'
             },
             {
               text: 'Podgląd Hex',
-              link: '/usage/experiments/hex-preview'
+              link: 'usage/experiments/hex-preview'
             }
           ]
         }
@@ -103,10 +103,10 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       text: 'Dodatki',
       collapsed: false,
       items: [
-        { text: 'Analyzer', link: '/addons/analyzer' },
+        { text: 'Analyzer', link: 'addons/analyzer' },
         {
           text: 'Tworzenie dodatku',
-          link: '/addons/creating-an-addon'
+          link: 'addons/creating-an-addon'
         }
       ]
     },
@@ -114,8 +114,8 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       text: 'Zaawansowane',
       collapsed: true,
       items: [
-        { text: 'Kompilowanie', link: '/advanced/compiling' },
-        { text: 'Wkład', link: '/advanced/contributing' }
+        { text: 'Kompilowanie', link: 'advanced/compiling' },
+        { text: 'Wkład', link: 'advanced/contributing' }
       ]
     }
   ]

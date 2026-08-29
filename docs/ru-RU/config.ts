@@ -65,8 +65,8 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       text: 'Первые шаги',
       collapsed: false,
       items: [
-        { text: 'Введение', link: '/first-steps/intro' },
-        { text: 'Установка', link: '/first-steps/installation' }
+        { text: 'Введение', link: 'first-steps/intro' },
+        { text: 'Установка', link: 'first-steps/installation' }
       ]
     },
     {
@@ -75,24 +75,24 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       items: [
         {
           text: 'FTP интеграция',
-          link: '/usage/ftp-integration'
+          link: 'usage/ftp-integration'
         },
         {
           text: 'Эксперименты',
           collapsed: true,
-          link: '/usage/experiments',
+          link: 'usage/experiments',
           items: [
             {
               text: 'Автодополнение кода',
-              link: '/usage/experiments/code-completion'
+              link: 'usage/experiments/code-completion'
             },
             {
               text: 'Проекты',
-              link: '/usage/experiments/projects'
+              link: 'usage/experiments/projects'
             },
             {
               text: 'Hex предпросмотр',
-              link: '/usage/experiments/hex-preview'
+              link: 'usage/experiments/hex-preview'
             }
           ]
         }
@@ -102,10 +102,10 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       text: 'Дополнения',
       collapsed: false,
       items: [
-        { text: 'Анализатор', link: '/addons/analyzer' },
+        { text: 'Анализатор', link: 'addons/analyzer' },
         {
           text: 'Создание дополнения',
-          link: '/addons/creating-an-addon'
+          link: 'addons/creating-an-addon'
         }
       ]
     },
@@ -113,8 +113,8 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       text: 'Продвинутые темы',
       collapsed: true,
       items: [
-        { text: 'Компиляция', link: '/advanced/compiling' },
-        { text: 'Участие в разработке', link: '/advanced/contributing' }
+        { text: 'Компиляция', link: 'advanced/compiling' },
+        { text: 'Участие в разработке', link: 'advanced/contributing' }
       ]
     }
   ]

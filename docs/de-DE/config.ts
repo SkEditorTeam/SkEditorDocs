@@ -65,8 +65,8 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       text: 'Erste Schritte',
       collapsed: false,
       items: [
-        { text: 'Einführung', link: '/first-steps/intro' },
-        { text: 'Installation', link: '/first-steps/installation' }
+        { text: 'Einführung', link: 'first-steps/intro' },
+        { text: 'Installation', link: 'first-steps/installation' }
       ]
     },
     {
@@ -75,24 +75,24 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       items: [
         {
           text: 'FTP Integration',
-          link: '/usage/ftp-integration'
+          link: 'usage/ftp-integration'
         },
         {
           text: 'Experimente',
           collapsed: true,
-          link: '/usage/experiments',
+          link: 'usage/experiments',
           items: [
             {
               text: 'Code Vervollständigung',
-              link: '/usage/experiments/code-completion'
+              link: 'usage/experiments/code-completion'
             },
             {
               text: 'Projekte',
-              link: '/usage/experiments/projects'
+              link: 'usage/experiments/projects'
             },
             {
               text: 'Hex Vorschau',
-              link: '/usage/experiments/hex-preview'
+              link: 'usage/experiments/hex-preview'
             }
           ]
         }
@@ -102,10 +102,10 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       text: 'Erweiterungen',
       collapsed: false,
       items: [
-        { text: 'Analyzer', link: '/addons/analyzer' },
+        { text: 'Analyzer', link: 'addons/analyzer' },
         {
           text: 'Eine Erweiterung erstellen',
-          link: '/addons/creating-an-addon'
+          link: 'addons/creating-an-addon'
         }
       ]
     },
@@ -113,8 +113,8 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       text: 'Fortgeschritten',
       collapsed: true,
       items: [
-        { text: 'Kompilieren', link: '/advanced/compiling' },
-        { text: 'Mitwirken', link: '/advanced/contributing' }
+        { text: 'Kompilieren', link: 'advanced/compiling' },
+        { text: 'Mitwirken', link: 'advanced/contributing' }
       ]
     }
   ]

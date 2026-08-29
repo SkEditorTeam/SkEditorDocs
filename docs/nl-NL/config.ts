@@ -65,8 +65,8 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       text: 'Eerste stappen',
       collapsed: false,
       items: [
-        { text: 'Introductie', link: '/first-steps/intro' },
-        { text: 'Installatie', link: '/first-steps/installation' }
+        { text: 'Introductie', link: 'first-steps/intro' },
+        { text: 'Installatie', link: 'first-steps/installation' }
       ]
     },
     {
@@ -75,24 +75,24 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       items: [
         {
           text: 'FTP-integratie',
-          link: '/usage/ftp-integration'
+          link: 'usage/ftp-integration'
         },
         {
           text: 'Experimenten',
           collapsed: true,
-          link: '/usage/experiments',
+          link: 'usage/experiments',
           items: [
             {
               text: 'Code-aanvulling',
-              link: '/usage/experiments/code-completion'
+              link: 'usage/experiments/code-completion'
             },
             {
               text: 'Projecten',
-              link: '/usage/experiments/projects'
+              link: 'usage/experiments/projects'
             },
             {
               text: 'Hex-voorbeeld',
-              link: '/usage/experiments/hex-preview'
+              link: 'usage/experiments/hex-preview'
             }
           ]
         }
@@ -102,10 +102,10 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       text: 'Add-ons',
       collapsed: false,
       items: [
-        { text: 'Analyzer', link: '/addons/analyzer' },
+        { text: 'Analyzer', link: 'addons/analyzer' },
         {
           text: 'Een add-on maken',
-          link: '/addons/creating-an-addon'
+          link: 'addons/creating-an-addon'
         }
       ]
     },
@@ -113,8 +113,8 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       text: 'Geavanceerd',
       collapsed: true,
       items: [
-        { text: 'Compileren', link: '/advanced/compiling' },
-        { text: 'Bijdragen', link: '/advanced/contributing' }
+        { text: 'Compileren', link: 'advanced/compiling' },
+        { text: 'Bijdragen', link: 'advanced/contributing' }
       ]
     }
   ]
