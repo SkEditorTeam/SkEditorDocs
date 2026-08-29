@@ -9,6 +9,10 @@ next:
 
 # Installation
 
+::: info Looking for SkEditor 3 Alpha?
+This guide covers the stable SkEditor 2.x release. If you want to try out the upcoming SkEditor 3.0 pre-releases, check out the [SkEditor 3 Alpha guide](./skeditor-3-alpha.md).
+:::
+
 SkEditor is straightforward to install across different platforms. Follow the instructions below for your operating system.
 
 ## Prerequisites

@@ -148,7 +148,8 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'Introduction', link: '/first-steps/intro' },
-        { text: 'Installation', link: '/first-steps/installation' }
+        { text: 'Installation', link: '/first-steps/installation' },
+        { text: 'SkEditor 3 Alpha', link: '/first-steps/skeditor-3-alpha' }
       ]
     },
     {

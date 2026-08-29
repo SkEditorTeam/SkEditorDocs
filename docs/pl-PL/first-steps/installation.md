@@ -9,6 +9,10 @@ next:
 
 # Instalacja
 
+::: info Szukasz wersji SkEditor 3 Alpha?
+Ten poradnik dotyczy stabilnego wydania SkEditor 2.x. Jeśli chcesz wypróbować nadchodzące wersje testowe SkEditor 3.0, sprawdź [poradnik do SkEditor 3 Alpha](./skeditor-3-alpha.md).
+:::
+
 SkEditor można łatwo zainstalować na wielu systemach. Postępuj zgodnie z poniższymi instrukcjami dla swojego systemu operacyjnego.
 
 ## Wymagania wstępne

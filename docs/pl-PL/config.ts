@@ -66,7 +66,8 @@ function sidebar(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'Wprowadzenie', link: '/first-steps/intro' },
-        { text: 'Instalacja', link: '/first-steps/installation' }
+        { text: 'Instalacja', link: '/first-steps/installation' },
+        { text: 'SkEditor 3 Alpha', link: '/first-steps/skeditor-3-alpha' }
       ]
     },
     {

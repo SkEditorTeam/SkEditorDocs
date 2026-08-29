@@ -9,8 +9,11 @@ hero:
   image: /assets/SkEditor-512.png
   actions:
     - theme: brand-button
-      text: Download
+      text: Download (v2)
       link: https://github.com/SkEditorTeam/SkEditor/releases/latest
+    - theme: brand-button
+      text: Try SkEditor 3 Alpha
+      link: /first-steps/skeditor-3-alpha
     - theme: brand-button
       text: Documentation
       link: /first-steps/intro
@@ -36,3 +39,7 @@ features:
     details: SkEditor is actively maintained by Notro and the community, ensuring continuous improvements, bug fixes, and new features.
 ---
 
+::: tip SkEditor 3.0 Alpha is here!
+We're currently actively testing the next major version of SkEditor. Features include native AOT compilation, built-in SFTP, new settings, and experimental tools like the Analyzer and Terminal.  
+Read the [SkEditor 3 Alpha Guide](./first-steps/skeditor-3-alpha.md) to learn how to download and join testing.
+:::
