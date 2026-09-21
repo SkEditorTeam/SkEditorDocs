@@ -9,8 +9,7 @@ const configRuRU: LocaleConfig = {
 
   head: [
     ['meta', { property: 'og:title', content: 'Документация SkEditor' }],
-    ['meta', { property: 'og:description', content: 'Современное и быстрое приложение для редактирования скриптов.' }],
-    ['meta', { property: 'og:url', content: 'https://docs.skeditor.dev/ru-RU/' }]
+    ['meta', { property: 'og:description', content: 'Современное и быстрое приложение для редактирования скриптов.' }]
   ],
 
   themeConfig: {

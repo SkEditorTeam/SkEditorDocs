@@ -38,6 +38,27 @@ export default defineConfig({
     'en-US/:rest*': ':rest*'
   },
 
+  transformPageData(pageData) {
+    let path = pageData.relativePath
+        .replace(/^en-US\//, '')
+        .replace(/(^|\/)index\.md$/, '$1')
+        .replace(/\.md$/, '')
+
+    const cleanPath = path ? (path.startsWith('/') ? path : `/${path}`) : '/'
+    const canonicalUrl = `https://docs.skeditor.dev${cleanPath}`
+
+    pageData.frontmatter.head ??= []
+    pageData.frontmatter.head.push([
+      'link',
+      { rel: 'canonical', href: canonicalUrl }
+    ])
+
+    pageData.frontmatter.head.push([
+      'meta',
+      { property: 'og:url', content: canonicalUrl }
+    ])
+  },
+
   lastUpdated: true,
 
   locales: {
@@ -48,8 +69,7 @@ export default defineConfig({
       description: 'An app for editing Skript files.',
       head: [
         ['meta', { property: 'og:title', content: 'SkEditor Documentation' }],
-        ['meta', { property: 'og:description', content: 'An advanced and modern app for editing Skript files.' }],
-        ['meta', { property: 'og:url', content: 'https://docs.skeditor.dev/' }]
+        ['meta', { property: 'og:description', content: 'An advanced and modern app for editing Skript files.' }]
       ]
     },
     'de-DE': configDeDE,

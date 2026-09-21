@@ -9,8 +9,7 @@ const configFrFR: LocaleConfig = {
 
   head: [
     ['meta', { property: 'og:title', content: 'Documentation SkEditor' }],
-    ['meta', { property: 'og:description', content: 'Une application moderne et rapide pour éditer des fichiers Skript.' }],
-    ['meta', { property: 'og:url', content: 'https://docs.skeditor.dev/fr-FR/' }]
+    ['meta', { property: 'og:description', content: 'Une application moderne et rapide pour éditer des fichiers Skript.' }]
   ],
 
   themeConfig: {

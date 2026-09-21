@@ -9,8 +9,7 @@ const configNlNL: LocaleConfig = {
 
   head: [
     ['meta', { property: 'og:title', content: 'SkEditor Documentatie' }],
-    ['meta', { property: 'og:description', content: 'Een moderne en snelle app voor het bewerken van Skript-bestanden.' }],
-    ['meta', { property: 'og:url', content: 'https://docs.skeditor.dev/nl-NL/' }]
+    ['meta', { property: 'og:description', content: 'Een moderne en snelle app voor het bewerken van Skript-bestanden.' }]
   ],
 
   themeConfig: {
