@@ -1,6 +1,9 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: SkEditor - Современная IDE для разработки на Skript
+titleTemplate: false
+description: Современная IDE для разработки на Skript. Создавайте мощные скрипты для серверов Minecraft с подсветкой синтаксиса, визуальными инструментами и функциями сообщества. Бесплатно, кроссплатформенно и с открытым исходным кодом.
 
 hero:
   name: "SkEditor"

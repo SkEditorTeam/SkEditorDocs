@@ -1,6 +1,9 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: SkEditor - L’IDE moderne pour le développement Skript
+titleTemplate: false
+description: L’IDE moderne pour le développement Skript. Créez des scripts de serveur Minecraft avec coloration syntaxique, outils visuels et fonctionnalités communautaires. Gratuit, multiplateforme et open source.
 
 hero:
   name: "SkEditor"
